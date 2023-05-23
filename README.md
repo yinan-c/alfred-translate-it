@@ -14,6 +14,8 @@ An Alfred 5 workflow to translate text from any source to any target, using Open
 
 ![](https://i.imgur.com/dVXv9Vb.png)
 ![](https://i.imgur.com/IQFgFhO.png)
+![](https://i.imgur.com/OP3p7Ge.png)
+![](https://i.imgur.com/oblAPqb.png)
 
 NOTE: OpenAI model 'text-davinci-003' is used in translation, can be slow and costy, use at your own risk.
 You can turn off the checkbox in the configuration and only use your DeepL API.
