@@ -12,6 +12,7 @@ An Alfred 5 workflow to translate text from any source to any target, using Open
 - Then select any result and `⏎` to copy text to your clipboard
 - `⌘ + ⏎` to view large text (useful if results are long)
 
+![](https://i.imgur.com/dVXv9Vb.png)
 ![](https://i.imgur.com/IQFgFhO.png)
 
 NOTE: OpenAI model 'text-davinci-003' is used in translation, can be slow and costy, use at your own risk.
