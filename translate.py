@@ -7,8 +7,8 @@ import sys
 openai.api_key = os.getenv("OPENAI_API_KEY")
 auth_key = os.getenv("DEEPL_API_KEY")
 
-deepl_check = 1
-openai_check = 1
+deepl_check = os.getenv("deepl_check")
+openai_check = os.getenv("openai_check")
 
 source_language = os.getenv("source_language")
 target_language = os.getenv("target_language")
@@ -25,7 +25,7 @@ json_output = {
 
 
 # OpenAI Translation
-if openai_check == 1:
+if openai_check == '1':
     prompt_text = f"Please translate from {source_language} to {target_language}: {input_text}"
     response = openai.Completion.create(
         model="text-davinci-003",
@@ -50,7 +50,7 @@ if openai_check == 1:
     json_output["items"].append(openai_output)
 
 # DeepL Translation
-if deepl_check == 1:
+if deepl_check == '1':
     deepl_translator = deepl.Translator(auth_key) 
     deepl_result = deepl_translator.translate_text([input_text], target_lang=target_language) 
     deepl_text = deepl_result[0].text
@@ -70,7 +70,7 @@ if deepl_check == 1:
 if not json_output["items"]:
     no_selection_output = {
         "type": "default",
-        "title": "Please select one translation method",
+        "title": "Please select at least one translation method",
         "subtitle": "",
         "arg": "",
         'icon': {
