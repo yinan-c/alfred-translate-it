@@ -17,4 +17,4 @@ An Alfred 5 workflow to translate text from any source to any target, using Open
 NOTE: OpenAI model 'text-davinci-003' is used in translation, can be slow and costy, use at your own risk.
 You can turn off the checkbox in the configuration and only use your DeepL API.
 
-I plan to add more translation services in the future, any suggestions are welcomed here!
+**I plan to add more translation services (google, youdao ...) in the future, any suggestions are welcomed here!**
