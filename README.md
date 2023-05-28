@@ -41,10 +41,6 @@ python setup.py install
 ![](https://i.imgur.com/AZZOy2w.png)
 ![](https://i.imgur.com/XO0Ub0K.png)
 ![](https://i.imgur.com/ZyaL4O3.png)
-![](https://i.imgur.com/lN3CTVK.png)
-
-You can turn off the checkbox in the configuration and only use your DeepL API.
-
 
 ## Thanks
 - Open-source project [UlionTse/translators](https://github.com/UlionTse/translators), a library which aims to bring free, multiple, enjoyable translation to individuals and students in Python.
