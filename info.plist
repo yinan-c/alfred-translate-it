@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>bundleid</key>
-	<string>com.yinanchen.alfred-translate-this</string>
+	<string>com.yinanchen.alfred-translate-it</string>
 	<key>connections</key>
 	<dict>
 		<key>276B99B8-9DF7-4D36-BFAD-273DAB4C007F</key>
@@ -59,11 +59,11 @@
 	<key>createdby</key>
 	<string>Yinan Chen</string>
 	<key>description</key>
-	<string>Translate any language, using OpenAI and DeepL</string>
+	<string>Translate with Alfred using multiple services</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
-	<string>Translate This</string>
+	<string>Translate It</string>
 	<key>objects</key>
 	<array>
 		<dict>
@@ -76,7 +76,7 @@
 				<key>subtext</key>
 				<string>Press ENTER to translate</string>
 				<key>text</key>
-				<string>Translator</string>
+				<string>Translate it</string>
 				<key>withspace</key>
 				<true/>
 			</dict>
@@ -137,6 +137,7 @@
 				<string>Please wait ...</string>
 				<key>script</key>
 				<string>export PYTHONPATH='./libs/'
+export PATH="$HOME/.pyenv/shims:$HOME/.pyenv/bin:$PATH"
 
 python3 translate.py {query}</string>
 				<key>scriptargtype</key>
@@ -144,9 +145,9 @@ python3 translate.py {query}</string>
 				<key>scriptfile</key>
 				<string></string>
 				<key>subtext</key>
-				<string>Translate with DeepL and OpenAI</string>
+				<string>Translate with multiple services</string>
 				<key>title</key>
-				<string>Translate This</string>
+				<string>Translate It</string>
 				<key>type</key>
 				<integer>5</integer>
 				<key>withspace</key>
@@ -209,16 +210,27 @@ python3 translate.py {query}</string>
 		</dict>
 	</array>
 	<key>readme</key>
-	<string># Translate This
+	<string>## [Translate-it](https://www.github.com/yinan-c/alfred-translate-it)
 
-Use OpenAI and DeepL to translate text from any source to any target. The workflow also support [Universal Actions](https://www.alfredapp.com/universal-actions/).
+Translate text with multiple services. This workflow also support [Universal Actions](https://www.alfredapp.com/universal-actions/).
 
-Requires [OpenAI API](https://platform.openai.com/) and [DeepL API](https://www.deepl.com/pro-api).
+### Requirements
+- [Alfred PowerPack](https://www.alfredapp.com/powerpack/)
+- OpenAI Translation: [OpenAI API](https://platform.openai.com/)
+- DeepL Translation: [DeepL API](https://www.deepl.com/pro-api)
+- Other translation services: Requires [translators](https://github.com/UlionTse/translators) library, installed via:
+`pip install --upgrade translators`
 
-Target and source language code should be following the [DeepL API docs](https://www.deepl.com/docs-api/translate-text) if you are using DeepL.
 
-NOTE: OpenAI model 'text-davinci-003' is used in translation, can be slow and costy, use at your own risk.
-You can turn off the checkbox in the configuration and only use your DeepL API.</string>
+### Setup and usage
+- target language code, method of translation and your APIs.
+(Please check [DeepL API docs](https://www.deepl.com/docs-api/translate-text) and [Translators library](https://github.com/UlionTse/translators) for supported language codes)
+- Type anything followed by keyword trans, ⏎ to translate
+- Then select any result and ⏎ to copy text to your clipboard
+- ⌘ + ⏎ to view large text (useful if results are long)
+
+
+NOTE: OpenAI model 'text-davinci-003' is used in translation, can be slow and costy, use at your own risk. If that's an issue, you can turn off the checkbox in the configuration and only use DeepL.</string>
 	<key>uidata</key>
 	<dict>
 		<key>276B99B8-9DF7-4D36-BFAD-273DAB4C007F</key>
@@ -245,7 +257,7 @@ You can turn off the checkbox in the configuration and only use your DeepL API.<
 		<key>8B5BD320-27DD-4E36-82F3-8B0906919881</key>
 		<dict>
 			<key>xpos</key>
-			<real>55</real>
+			<real>75</real>
 			<key>ypos</key>
 			<real>80</real>
 		</dict>
@@ -263,7 +275,7 @@ You can turn off the checkbox in the configuration and only use your DeepL API.<
 			<key>config</key>
 			<dict>
 				<key>default</key>
-				<string>en</string>
+				<string>en-US</string>
 				<key>placeholder</key>
 				<string></string>
 				<key>required</key>
@@ -272,30 +284,9 @@ You can turn off the checkbox in the configuration and only use your DeepL API.<
 				<true/>
 			</dict>
 			<key>description</key>
-			<string></string>
+			<string>Please check https://www.deepl.com/docs-api/translate-text for language codes, e.g. zh for Chinese</string>
 			<key>label</key>
-			<string>Input language</string>
-			<key>type</key>
-			<string>textfield</string>
-			<key>variable</key>
-			<string>source_language</string>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>default</key>
-				<string>zh</string>
-				<key>placeholder</key>
-				<string></string>
-				<key>required</key>
-				<false/>
-				<key>trim</key>
-				<true/>
-			</dict>
-			<key>description</key>
-			<string></string>
-			<key>label</key>
-			<string>Output language</string>
+			<string>Target language code</string>
 			<key>type</key>
 			<string>textfield</string>
 			<key>variable</key>
@@ -316,7 +307,7 @@ You can turn off the checkbox in the configuration and only use your DeepL API.<
 			<key>description</key>
 			<string></string>
 			<key>label</key>
-			<string>OpenAI API</string>
+			<string>OpenAI API key</string>
 			<key>type</key>
 			<string>textfield</string>
 			<key>variable</key>
@@ -337,7 +328,7 @@ You can turn off the checkbox in the configuration and only use your DeepL API.<
 			<key>description</key>
 			<string></string>
 			<key>label</key>
-			<string>DeepL API KEY</string>
+			<string>DeepL API key</string>
 			<key>type</key>
 			<string>textfield</string>
 			<key>variable</key>
@@ -356,7 +347,7 @@ You can turn off the checkbox in the configuration and only use your DeepL API.<
 			<key>description</key>
 			<string></string>
 			<key>label</key>
-			<string>DeepL Translation</string>
+			<string>DeepL</string>
 			<key>type</key>
 			<string>checkbox</string>
 			<key>variable</key>
@@ -375,18 +366,94 @@ You can turn off the checkbox in the configuration and only use your DeepL API.<
 			<key>description</key>
 			<string></string>
 			<key>label</key>
-			<string>OpenAI Translation</string>
+			<string>OpenAI</string>
 			<key>type</key>
 			<string>checkbox</string>
 			<key>variable</key>
 			<string>openai_check</string>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<false/>
+				<key>required</key>
+				<false/>
+				<key>text</key>
+				<string>Enable OpenAI Translation</string>
+			</dict>
+			<key>description</key>
+			<string></string>
+			<key>label</key>
+			<string>Bing</string>
+			<key>type</key>
+			<string>checkbox</string>
+			<key>variable</key>
+			<string>bing_check</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<false/>
+				<key>required</key>
+				<false/>
+				<key>text</key>
+				<string>Enable Google Translation</string>
+			</dict>
+			<key>description</key>
+			<string></string>
+			<key>label</key>
+			<string>Google</string>
+			<key>type</key>
+			<string>checkbox</string>
+			<key>variable</key>
+			<string>google_check</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<false/>
+				<key>required</key>
+				<false/>
+				<key>text</key>
+				<string>Enable Baidu Translation</string>
+			</dict>
+			<key>description</key>
+			<string></string>
+			<key>label</key>
+			<string>Baidu</string>
+			<key>type</key>
+			<string>checkbox</string>
+			<key>variable</key>
+			<string>baidu_check</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<false/>
+				<key>required</key>
+				<false/>
+				<key>text</key>
+				<string>Enable Youdao Translation</string>
+			</dict>
+			<key>description</key>
+			<string></string>
+			<key>label</key>
+			<string>Youdao</string>
+			<key>type</key>
+			<string>checkbox</string>
+			<key>variable</key>
+			<string>youdao_check</string>
+		</dict>
 	</array>
 	<key>variablesdontexport</key>
 	<array/>
 	<key>version</key>
-	<string>1.0</string>
+	<string>1.1</string>
 	<key>webaddress</key>
-	<string>https://github.com/yinan-c/alfred-translate-this</string>
+	<string>https://github.com/yinan-c/alfred-translate-it</string>
 </dict>
 </plist>
