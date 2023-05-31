@@ -150,7 +150,7 @@
 	<key>createdby</key>
 	<string>Yinan Chen</string>
 	<key>description</key>
-	<string>Translate with Alfred using multiple services</string>
+	<string>Translate using multiple services</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
@@ -774,13 +774,10 @@ Translate text with multiple services. This workflow also support [Universal Act
 ### Setup and usage
 - target language code, method of translation and your APIs.
 (Please check [DeepL API docs](https://www.deepl.com/docs-api/translate-text) and [Translators library](https://github.com/UlionTse/translators) for supported language codes)
-- Type anything followed by keyword trans, ⏎ to translate
+- Type anything after keyword trans to translate, it will auto-detect source language.-
 - Then select any result and ⏎ to copy text to your clipboard
 - ⌘ + ⏎ to view large text (useful if results are long)
-
-NOTE: OpenAI model 'text-davinci-003' is used in translation. Some tranlation services (e.g. OpenAI, youdao) may be slow and delay the output.
-
-If delay is a big issue, test the speed of each translation service and choose which ones to disable.</string>
+- For universal control, simple select any text and search for translate.</string>
 	<key>uidata</key>
 	<dict>
 		<key>1834A62D-302E-4218-A23B-DE9C30B48023</key>
@@ -1090,10 +1087,8 @@ If delay is a big issue, test the speed of each translation service and choose w
 			<string>youdao_check</string>
 		</dict>
 	</array>
-	<key>variablesdontexport</key>
-	<array/>
 	<key>version</key>
-	<string>1.1</string>
+	<string>1.2</string>
 	<key>webaddress</key>
 	<string>https://github.com/yinan-c/alfred-translate-it</string>
 </dict>

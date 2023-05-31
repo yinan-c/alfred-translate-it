@@ -37,7 +37,7 @@ if openai_check == '1' and sys.argv[1] == 'openai':
     response = openai.ChatCompletion.create(
         model="gpt-3.5-turbo", 
         messages = [
-            {"role": "system", "content" : f"You are a translation expert proficient in various languages that can only translate text into {target_language}. Translate any thing I say from now on, do not engage a conversion with me, you can only return the translated text."},
+            {"role": "system", "content" : "You are a translation expert proficient in various languages that can only translate text into {target_language}. Translate any thing I say from now on, do not engage a conversion with me, you can only return the translated text."},
             {"role": "user", "content" : f"{input_text}"}
         ])
     #prompt_text = f"You are a translation expert proficient in various languages that can only translate text and cannot interpret it. You can only return the translated text. Please translate the following text to {target_language}: {input_text}"
@@ -82,27 +82,16 @@ if deepl_check == '1' and sys.argv[1] == 'deepl':
 
 def translation_output(check, translator_name, icon_path, ts, input_text, target_language, json_output):
     if check == '1':
-        try:
-            translated_text = ts.translate_text(input_text, to_language=target_language, translator=translator_name)
-            output = {
-                "type": "default",
-                "subtitle": translator_name.capitalize(),
-                "title": translated_text,
-                "arg": translated_text,
-                'icon': {
-                    'path': icon_path
-                }
+        translated_text = ts.translate_text(input_text, to_language=target_language, translator=translator_name)
+        output = {
+            "type": "default",
+            "subtitle": translator_name.capitalize(),
+            "title": translated_text,
+            "arg": translated_text,
+            'icon': {
+                'path': icon_path
             }
-        except:
-            output = {
-                "type": "default",
-                "subtitle": translator_name.capitalize(),
-                "title": f"{translator_name.capitalize()} is not available at the moment",
-                "arg": "",
-                'icon': {
-                    'path': icon_path
-                }
-            }
+        }
         json_output["items"].append(output)
     return json_output
 
