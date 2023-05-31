@@ -3,9 +3,11 @@
 An Alfred 5 workflow to translate text from any source to any target, using OpenAI, DeepL, Google, Bing, Baidu and Youdao. This workflow also support [Universal Actions](https://www.alfredapp.com/universal-actions/).
 
 **NOTE**: OpenAI model 'text-davinci-003' is used in translation.
-Some tranlation services (e.g. OpenAI, youdao) may be slow and delay the output.
 
-If delay is a big issue, test the speed of each translation service and choose which ones to disable. 
+~~Some tranlation services (e.g. OpenAI, youdao) may be slow and delay the output.~~
+~~If delay is a big issue, test the speed of each translation service and choose which ones to disable.~~
+
+(Fixed in v1.2: Show results one-by-one to avoid delay)
 
 ## Requirements
 [Alfred PowerPack](https://www.alfredapp.com/powerpack/)
@@ -44,7 +46,10 @@ python setup.py install
 
 ## Thanks
 - Open-source project [UlionTse/translators](https://github.com/UlionTse/translators), a library which aims to bring free, multiple, enjoyable translation to individuals and students in Python.
-
+- Inspired by a [discussion](https://github.com/tisfeng/Easydict/issues/78) in a great macapp [tisfeng/easydict](https://github.com/tisfeng/easydict)
 
 For redering results speed, I am thinking about rendering the results in a sequence instead of showing them all at once, but I am not sure if Alfred will allow that.
+
+> Found a workaround in in v1.2 update
+
 **Any suggestions are welcomed here!**
