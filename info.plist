@@ -4,6 +4,8 @@
 <dict>
 	<key>bundleid</key>
 	<string>com.yinanchen.alfred-translate-it</string>
+	<key>category</key>
+	<string>Favorite</string>
 	<key>connections</key>
 	<dict>
 		<key>276B99B8-9DF7-4D36-BFAD-273DAB4C007F</key>
@@ -29,11 +31,11 @@
 				<true/>
 			</dict>
 		</array>
-		<key>34420154-FFFF-4999-AD3D-4A0AE14A716E</key>
+		<key>281DAF59-4B8C-4B95-A09F-A9180C5A6F9F</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>276B99B8-9DF7-4D36-BFAD-273DAB4C007F</string>
+				<string>506B1F8E-055C-4BC6-ACE2-A99DDF1CAEA4</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -41,16 +43,105 @@
 				<key>vitoclose</key>
 				<false/>
 			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>75A28FE4-5130-4551-9D60-F8D206024627</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>Large text</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
 		</array>
-		<key>8B5BD320-27DD-4E36-82F3-8B0906919881</key>
+		<key>718D0C0A-7ABC-4EDA-8DA6-BBADD670B997</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>34420154-FFFF-4999-AD3D-4A0AE14A716E</string>
+				<string>1834A62D-302E-4218-A23B-DE9C30B48023</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>9F9E3773-6C7B-442B-A6B9-0AF6EDEC7486</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>Large text</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>97B3A864-1927-4905-A62B-22887D94CBAC</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>BD37C87C-26F6-4960-9432-7B7C4074BD65</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>579B173C-7505-4F1E-8398-C7CF5CCB78C4</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>Large text</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>B733403D-49DF-4CA9-B17C-BB6C5B23C96B</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>6D6D570D-8729-4BC7-BC1D-1C23AC224950</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>91CFA030-F7CC-4F89-94C8-38F3DFBB5A21</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>Large text</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>B8AA88F0-CC22-4F5A-99DC-C0FD5FD02B00</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>49D4E8D5-0825-4041-AC1C-8DC19D712A60</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>27B5F019-0C02-4928-85C8-CCA30DC797B1</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>Large text</string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
@@ -69,46 +160,40 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>keyword</key>
-				<string>trans</string>
-				<key>subtext</key>
-				<string>Press ENTER to translate</string>
-				<key>text</key>
-				<string>Translate it</string>
-				<key>withspace</key>
-				<true/>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>transient</key>
+				<false/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
+			<string>alfred.workflow.output.clipboard</string>
 			<key>uid</key>
-			<string>8B5BD320-27DD-4E36-82F3-8B0906919881</string>
+			<string>99BF70FA-7302-441E-9270-2EF7A37EC770</string>
 			<key>version</key>
-			<integer>1</integer>
+			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>concurrently</key>
+				<key>autopaste</key>
 				<false/>
-				<key>escaping</key>
-				<integer>68</integer>
-				<key>script</key>
-				<string>echo {query}</string>
-				<key>scriptargtype</key>
-				<integer>0</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>0</integer>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>transient</key>
+				<false/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.action.script</string>
+			<string>alfred.workflow.output.clipboard</string>
 			<key>uid</key>
-			<string>34420154-FFFF-4999-AD3D-4A0AE14A716E</string>
+			<string>1834A62D-302E-4218-A23B-DE9C30B48023</string>
 			<key>version</key>
-			<integer>2</integer>
+			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -125,6 +210,8 @@
 				<integer>1</integer>
 				<key>escaping</key>
 				<integer>102</integer>
+				<key>keyword</key>
+				<string>trans</string>
 				<key>queuedelaycustom</key>
 				<integer>3</integer>
 				<key>queuedelayimmediatelyinitially</key>
@@ -134,20 +221,72 @@
 				<key>queuemode</key>
 				<integer>1</integer>
 				<key>runningsubtext</key>
-				<string>Please wait ...</string>
+				<string></string>
 				<key>script</key>
 				<string>export PYTHONPATH='./libs/'
 export PATH="$HOME/.pyenv/shims:$HOME/.pyenv/bin:$PATH"
 
-python3 translate.py {query}</string>
+python3 translate.py "bing" {query}</string>
 				<key>scriptargtype</key>
 				<integer>0</integer>
 				<key>scriptfile</key>
 				<string></string>
 				<key>subtext</key>
-				<string>Translate with multiple services</string>
+				<string></string>
 				<key>title</key>
-				<string>Translate It</string>
+				<string></string>
+				<key>type</key>
+				<integer>5</integer>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>718D0C0A-7ABC-4EDA-8DA6-BBADD670B997</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>trans</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>script</key>
+				<string>export PYTHONPATH='./libs/'
+export PATH="$HOME/.pyenv/shims:$HOME/.pyenv/bin:$PATH"
+
+python3 translate.py "openai" {query}</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string></string>
 				<key>type</key>
 				<integer>5</integer>
 				<key>withspace</key>
@@ -175,7 +314,59 @@ python3 translate.py {query}</string>
 			<key>type</key>
 			<string>alfred.workflow.output.clipboard</string>
 			<key>uid</key>
-			<string>99BF70FA-7302-441E-9270-2EF7A37EC770</string>
+			<string>506B1F8E-055C-4BC6-ACE2-A99DDF1CAEA4</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>trans</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>script</key>
+				<string>export PYTHONPATH='./libs/'
+export PATH="$HOME/.pyenv/shims:$HOME/.pyenv/bin:$PATH"
+
+python3 translate.py "google" {query}</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string></string>
+				<key>type</key>
+				<integer>5</integer>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>281DAF59-4B8C-4B95-A09F-A9180C5A6F9F</string>
 			<key>version</key>
 			<integer>3</integer>
 		</dict>
@@ -208,6 +399,364 @@ python3 translate.py {query}</string>
 			<key>version</key>
 			<integer>3</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alignment</key>
+				<integer>0</integer>
+				<key>backgroundcolor</key>
+				<string></string>
+				<key>fadespeed</key>
+				<integer>0</integer>
+				<key>fillmode</key>
+				<integer>0</integer>
+				<key>font</key>
+				<string></string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>largetypetext</key>
+				<string>{query}</string>
+				<key>textcolor</key>
+				<string></string>
+				<key>wrapat</key>
+				<integer>50</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.largetype</string>
+			<key>uid</key>
+			<string>9F9E3773-6C7B-442B-A6B9-0AF6EDEC7486</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alignment</key>
+				<integer>0</integer>
+				<key>backgroundcolor</key>
+				<string></string>
+				<key>fadespeed</key>
+				<integer>0</integer>
+				<key>fillmode</key>
+				<integer>0</integer>
+				<key>font</key>
+				<string></string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>largetypetext</key>
+				<string>{query}</string>
+				<key>textcolor</key>
+				<string></string>
+				<key>wrapat</key>
+				<integer>50</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.largetype</string>
+			<key>uid</key>
+			<string>75A28FE4-5130-4551-9D60-F8D206024627</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>trans</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>script</key>
+				<string>export PYTHONPATH='./libs/'
+export PATH="$HOME/.pyenv/shims:$HOME/.pyenv/bin:$PATH"
+
+python3 translate.py "youdao" {query}</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string></string>
+				<key>type</key>
+				<integer>5</integer>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>B733403D-49DF-4CA9-B17C-BB6C5B23C96B</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>6D6D570D-8729-4BC7-BC1D-1C23AC224950</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>trans</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Please wait ...</string>
+				<key>script</key>
+				<string>export PYTHONPATH='./libs/'
+export PATH="$HOME/.pyenv/shims:$HOME/.pyenv/bin:$PATH"
+
+python3 translate.py "deepl" {query} </string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string>Translate with multiple services</string>
+				<key>title</key>
+				<string>Translate It</string>
+				<key>type</key>
+				<integer>5</integer>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>B8AA88F0-CC22-4F5A-99DC-C0FD5FD02B00</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>trans</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>script</key>
+				<string>export PYTHONPATH='./libs/'
+export PATH="$HOME/.pyenv/shims:$HOME/.pyenv/bin:$PATH"
+
+python3 translate.py "baidu" {query}</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string></string>
+				<key>type</key>
+				<integer>5</integer>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>97B3A864-1927-4905-A62B-22887D94CBAC</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>BD37C87C-26F6-4960-9432-7B7C4074BD65</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>49D4E8D5-0825-4041-AC1C-8DC19D712A60</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alignment</key>
+				<integer>0</integer>
+				<key>backgroundcolor</key>
+				<string></string>
+				<key>fadespeed</key>
+				<integer>0</integer>
+				<key>fillmode</key>
+				<integer>0</integer>
+				<key>font</key>
+				<string></string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>largetypetext</key>
+				<string>{query}</string>
+				<key>textcolor</key>
+				<string></string>
+				<key>wrapat</key>
+				<integer>50</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.largetype</string>
+			<key>uid</key>
+			<string>91CFA030-F7CC-4F89-94C8-38F3DFBB5A21</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alignment</key>
+				<integer>0</integer>
+				<key>backgroundcolor</key>
+				<string></string>
+				<key>fadespeed</key>
+				<integer>0</integer>
+				<key>fillmode</key>
+				<integer>0</integer>
+				<key>font</key>
+				<string></string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>largetypetext</key>
+				<string>{query}</string>
+				<key>textcolor</key>
+				<string></string>
+				<key>wrapat</key>
+				<integer>50</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.largetype</string>
+			<key>uid</key>
+			<string>27B5F019-0C02-4928-85C8-CCA30DC797B1</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alignment</key>
+				<integer>0</integer>
+				<key>backgroundcolor</key>
+				<string></string>
+				<key>fadespeed</key>
+				<integer>0</integer>
+				<key>fillmode</key>
+				<integer>0</integer>
+				<key>font</key>
+				<string></string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>largetypetext</key>
+				<string>{query}</string>
+				<key>textcolor</key>
+				<string></string>
+				<key>wrapat</key>
+				<integer>50</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.largetype</string>
+			<key>uid</key>
+			<string>579B173C-7505-4F1E-8398-C7CF5CCB78C4</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string>## [Translate-it](https://www.github.com/yinan-c/alfred-translate-it)
@@ -229,44 +778,136 @@ Translate text with multiple services. This workflow also support [Universal Act
 - Then select any result and ⏎ to copy text to your clipboard
 - ⌘ + ⏎ to view large text (useful if results are long)
 
+NOTE: OpenAI model 'text-davinci-003' is used in translation. Some tranlation services (e.g. OpenAI, youdao) may be slow and delay the output.
 
-NOTE: OpenAI model 'text-davinci-003' is used in translation, can be slow and costy, use at your own risk. If that's an issue, you can turn off the checkbox in the configuration and only use DeepL.</string>
+If delay is a big issue, test the speed of each translation service and choose which ones to disable.</string>
 	<key>uidata</key>
 	<dict>
+		<key>1834A62D-302E-4218-A23B-DE9C30B48023</key>
+		<dict>
+			<key>xpos</key>
+			<real>755</real>
+			<key>ypos</key>
+			<real>65</real>
+		</dict>
 		<key>276B99B8-9DF7-4D36-BFAD-273DAB4C007F</key>
 		<dict>
 			<key>xpos</key>
-			<real>420</real>
+			<real>120</real>
 			<key>ypos</key>
-			<real>80</real>
+			<real>65</real>
 		</dict>
-		<key>34420154-FFFF-4999-AD3D-4A0AE14A716E</key>
+		<key>27B5F019-0C02-4928-85C8-CCA30DC797B1</key>
 		<dict>
 			<key>xpos</key>
-			<real>255</real>
+			<real>1150</real>
 			<key>ypos</key>
-			<real>80</real>
+			<real>475</real>
+		</dict>
+		<key>281DAF59-4B8C-4B95-A09F-A9180C5A6F9F</key>
+		<dict>
+			<key>xpos</key>
+			<real>950</real>
+			<key>ypos</key>
+			<real>70</real>
+		</dict>
+		<key>49D4E8D5-0825-4041-AC1C-8DC19D712A60</key>
+		<dict>
+			<key>xpos</key>
+			<real>1150</real>
+			<key>ypos</key>
+			<real>345</real>
+		</dict>
+		<key>506B1F8E-055C-4BC6-ACE2-A99DDF1CAEA4</key>
+		<dict>
+			<key>xpos</key>
+			<real>1160</real>
+			<key>ypos</key>
+			<real>70</real>
+		</dict>
+		<key>579B173C-7505-4F1E-8398-C7CF5CCB78C4</key>
+		<dict>
+			<key>xpos</key>
+			<real>750</real>
+			<key>ypos</key>
+			<real>480</real>
+		</dict>
+		<key>6D6D570D-8729-4BC7-BC1D-1C23AC224950</key>
+		<dict>
+			<key>xpos</key>
+			<real>325</real>
+			<key>ypos</key>
+			<real>340</real>
+		</dict>
+		<key>718D0C0A-7ABC-4EDA-8DA6-BBADD670B997</key>
+		<dict>
+			<key>xpos</key>
+			<real>550</real>
+			<key>ypos</key>
+			<real>65</real>
+		</dict>
+		<key>75A28FE4-5130-4551-9D60-F8D206024627</key>
+		<dict>
+			<key>xpos</key>
+			<real>1160</real>
+			<key>ypos</key>
+			<real>205</real>
 		</dict>
 		<key>8AA9AE0F-7123-4ABE-A81D-52EC8D7FC00B</key>
 		<dict>
 			<key>xpos</key>
-			<real>625</real>
+			<real>325</real>
 			<key>ypos</key>
-			<real>215</real>
+			<real>200</real>
 		</dict>
-		<key>8B5BD320-27DD-4E36-82F3-8B0906919881</key>
+		<key>91CFA030-F7CC-4F89-94C8-38F3DFBB5A21</key>
 		<dict>
 			<key>xpos</key>
-			<real>75</real>
+			<real>325</real>
 			<key>ypos</key>
-			<real>80</real>
+			<real>475</real>
+		</dict>
+		<key>97B3A864-1927-4905-A62B-22887D94CBAC</key>
+		<dict>
+			<key>xpos</key>
+			<real>555</real>
+			<key>ypos</key>
+			<real>345</real>
 		</dict>
 		<key>99BF70FA-7302-441E-9270-2EF7A37EC770</key>
 		<dict>
 			<key>xpos</key>
-			<real>620</real>
+			<real>325</real>
 			<key>ypos</key>
-			<real>80</real>
+			<real>65</real>
+		</dict>
+		<key>9F9E3773-6C7B-442B-A6B9-0AF6EDEC7486</key>
+		<dict>
+			<key>xpos</key>
+			<real>755</real>
+			<key>ypos</key>
+			<real>200</real>
+		</dict>
+		<key>B733403D-49DF-4CA9-B17C-BB6C5B23C96B</key>
+		<dict>
+			<key>xpos</key>
+			<real>120</real>
+			<key>ypos</key>
+			<real>340</real>
+		</dict>
+		<key>B8AA88F0-CC22-4F5A-99DC-C0FD5FD02B00</key>
+		<dict>
+			<key>xpos</key>
+			<real>955</real>
+			<key>ypos</key>
+			<real>345</real>
+		</dict>
+		<key>BD37C87C-26F6-4960-9432-7B7C4074BD65</key>
+		<dict>
+			<key>xpos</key>
+			<real>755</real>
+			<key>ypos</key>
+			<real>345</real>
 		</dict>
 	</dict>
 	<key>userconfigurationconfig</key>
@@ -380,7 +1021,7 @@ NOTE: OpenAI model 'text-davinci-003' is used in translation, can be slow and co
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Enable OpenAI Translation</string>
+				<string>Enable Bing Translation</string>
 			</dict>
 			<key>description</key>
 			<string></string>

@@ -23,7 +23,7 @@ else:
 
 def get_query() -> str:
     """Join the arguments into a query string."""
-    return " ".join(map(str, sys.argv[1:]))
+    return " ".join(map(str, sys.argv[2:]))
 
 input_text = get_query()
 
@@ -33,8 +33,9 @@ json_output = {
 
 
 # OpenAI Translation
-if openai_check == '1':
-    prompt_text = f"Please translate to {target_language}: {input_text}"
+if openai_check == '1' and sys.argv[1] == 'openai':
+    
+    prompt_text = f"Translate the following text to {target_language}: {input_text}"
     response = openai.Completion.create(
         model="text-davinci-003",
         prompt=prompt_text,
@@ -58,7 +59,7 @@ if openai_check == '1':
     json_output["items"].append(openai_output)
 
 # DeepL Translation
-if deepl_check == '1':
+if deepl_check == '1' and sys.argv[1] == 'deepl':
     deepl_translator = deepl.Translator(auth_key) 
     deepl_result = deepl_translator.translate_text([input_text], target_lang=target_language) 
     deepl_text = deepl_result[0].text
@@ -88,11 +89,15 @@ def translation_output(check, translator_name, icon_path, ts, input_text, target
         }
         json_output["items"].append(output)
     return json_output
+if sys.argv[1] == 'bing':
+    json_output = translation_output(bing_check, 'bing', "./assets/bing.png", ts, input_text, translators_language, json_output)
 
-json_output = translation_output(bing_check, 'bing', "./assets/bing.png", ts, input_text, translators_language, json_output)
-json_output = translation_output(google_check, 'google', "./assets/google.png", ts, input_text, translators_language, json_output)
-json_output = translation_output(baidu_check, 'baidu', "./assets/baidu.png", ts, input_text, translators_language, json_output)
-json_output = translation_output(youdao_check, 'youdao', "./assets/youdao.png", ts, input_text, translators_language, json_output)
+if sys.argv[1] == 'google':
+    json_output = translation_output(google_check, 'google', "./assets/google.png", ts, input_text, translators_language, json_output)
+if sys.argv[1] == 'baidu':
+    json_output = translation_output(baidu_check, 'baidu', "./assets/baidu.png", ts, input_text, translators_language, json_output)
+if sys.argv[1] == 'youdao':
+    json_output = translation_output(youdao_check, 'youdao', "./assets/youdao.png", ts, input_text, translators_language, json_output)
 
 # Check if no translation method selected
 if not json_output["items"]:
