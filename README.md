@@ -1,6 +1,6 @@
 # Alfred Translate-It 
 
-An Alfred 5 workflow to translate text from any source to any target, using OpenAI, DeepL, Google, Bing, Baidu and Youdao. This workflow also support [Universal Actions](https://www.alfredapp.com/universal-actions/).
+An Alfred 5 workflow to translate text using OpenAI, DeepL, Google, Bing, Baidu and Youdao. This workflow also support [Universal Actions](https://www.alfredapp.com/universal-actions/).
 
 ~~**NOTE**: OpenAI model 'text-davinci-003' is used in translation.~~ (changed to gpt-3.5-turbo in v1.2)
 
@@ -31,9 +31,8 @@ python setup.py install
 - For universal control, simple select any text and search for `translate`.
 
 ![](https://i.imgur.com/ANXHurD.png)
-![](https://i.imgur.com/AZZOy2w.png)
-![](https://i.imgur.com/XO0Ub0K.png)
-![](https://i.imgur.com/ZyaL4O3.png)
+![](https://i.imgur.com/yQu85NR.png)
+![](https://i.imgur.com/tpAXeBo.png)
 
 ## Thanks
 - Open-source project [UlionTse/translators](https://github.com/UlionTse/translators), a library which aims to bring free, multiple, enjoyable translation to individuals and students in Python.
