@@ -221,7 +221,7 @@
 				<key>queuemode</key>
 				<integer>1</integer>
 				<key>runningsubtext</key>
-				<string></string>
+				<string>Wait for Bing ...</string>
 				<key>script</key>
 				<string>export PYTHONPATH='./libs/'
 export PATH="$HOME/.pyenv/shims:$HOME/.pyenv/bin:$PATH"
@@ -234,7 +234,7 @@ python3 translate.py "bing" {query}</string>
 				<key>subtext</key>
 				<string></string>
 				<key>title</key>
-				<string></string>
+				<string>Translate with Bing</string>
 				<key>type</key>
 				<integer>5</integer>
 				<key>withspace</key>
@@ -273,7 +273,7 @@ python3 translate.py "bing" {query}</string>
 				<key>queuemode</key>
 				<integer>1</integer>
 				<key>runningsubtext</key>
-				<string></string>
+				<string>Wait for AI ...</string>
 				<key>script</key>
 				<string>export PYTHONPATH='./libs/'
 export PATH="$HOME/.pyenv/shims:$HOME/.pyenv/bin:$PATH"
@@ -286,7 +286,7 @@ python3 translate.py "openai" {query}</string>
 				<key>subtext</key>
 				<string></string>
 				<key>title</key>
-				<string></string>
+				<string>Translate with OpenAI</string>
 				<key>type</key>
 				<integer>5</integer>
 				<key>withspace</key>
@@ -344,7 +344,7 @@ python3 translate.py "openai" {query}</string>
 				<key>queuemode</key>
 				<integer>1</integer>
 				<key>runningsubtext</key>
-				<string></string>
+				<string>Wait for Google ...</string>
 				<key>script</key>
 				<string>export PYTHONPATH='./libs/'
 export PATH="$HOME/.pyenv/shims:$HOME/.pyenv/bin:$PATH"
@@ -357,7 +357,7 @@ python3 translate.py "google" {query}</string>
 				<key>subtext</key>
 				<string></string>
 				<key>title</key>
-				<string></string>
+				<string>Translate with Google</string>
 				<key>type</key>
 				<integer>5</integer>
 				<key>withspace</key>
@@ -483,7 +483,7 @@ python3 translate.py "google" {query}</string>
 				<key>queuemode</key>
 				<integer>1</integer>
 				<key>runningsubtext</key>
-				<string></string>
+				<string>Wait for Youdao ...</string>
 				<key>script</key>
 				<string>export PYTHONPATH='./libs/'
 export PATH="$HOME/.pyenv/shims:$HOME/.pyenv/bin:$PATH"
@@ -496,7 +496,7 @@ python3 translate.py "youdao" {query}</string>
 				<key>subtext</key>
 				<string></string>
 				<key>title</key>
-				<string></string>
+				<string>Translate with Youdao</string>
 				<key>type</key>
 				<integer>5</integer>
 				<key>withspace</key>
@@ -554,7 +554,7 @@ python3 translate.py "youdao" {query}</string>
 				<key>queuemode</key>
 				<integer>1</integer>
 				<key>runningsubtext</key>
-				<string>Please wait ...</string>
+				<string>Wait for DeepL ...</string>
 				<key>script</key>
 				<string>export PYTHONPATH='./libs/'
 export PATH="$HOME/.pyenv/shims:$HOME/.pyenv/bin:$PATH"
@@ -565,9 +565,9 @@ python3 translate.py "deepl" {query} </string>
 				<key>scriptfile</key>
 				<string></string>
 				<key>subtext</key>
-				<string>Translate with multiple services</string>
+				<string></string>
 				<key>title</key>
-				<string>Translate It</string>
+				<string>Translate with DeepL</string>
 				<key>type</key>
 				<integer>5</integer>
 				<key>withspace</key>
@@ -606,7 +606,7 @@ python3 translate.py "deepl" {query} </string>
 				<key>queuemode</key>
 				<integer>1</integer>
 				<key>runningsubtext</key>
-				<string></string>
+				<string>Wait for Baidu ...</string>
 				<key>script</key>
 				<string>export PYTHONPATH='./libs/'
 export PATH="$HOME/.pyenv/shims:$HOME/.pyenv/bin:$PATH"
@@ -619,7 +619,7 @@ python3 translate.py "baidu" {query}</string>
 				<key>subtext</key>
 				<string></string>
 				<key>title</key>
-				<string></string>
+				<string>Translate with Baidu</string>
 				<key>type</key>
 				<integer>5</integer>
 				<key>withspace</key>
