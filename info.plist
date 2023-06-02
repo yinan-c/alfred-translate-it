@@ -4,8 +4,6 @@
 <dict>
 	<key>bundleid</key>
 	<string>com.yinanchen.alfred-translate-it</string>
-	<key>category</key>
-	<string>Favorite</string>
 	<key>connections</key>
 	<dict>
 		<key>276B99B8-9DF7-4D36-BFAD-273DAB4C007F</key>
@@ -18,7 +16,7 @@
 				<key>modifiersubtext</key>
 				<string></string>
 				<key>vitoclose</key>
-				<false/>
+				<true/>
 			</dict>
 			<dict>
 				<key>destinationuid</key>
@@ -41,7 +39,7 @@
 				<key>modifiersubtext</key>
 				<string></string>
 				<key>vitoclose</key>
-				<false/>
+				<true/>
 			</dict>
 			<dict>
 				<key>destinationuid</key>
@@ -51,7 +49,7 @@
 				<key>modifiersubtext</key>
 				<string>Large text</string>
 				<key>vitoclose</key>
-				<false/>
+				<true/>
 			</dict>
 		</array>
 		<key>718D0C0A-7ABC-4EDA-8DA6-BBADD670B997</key>
@@ -64,7 +62,7 @@
 				<key>modifiersubtext</key>
 				<string></string>
 				<key>vitoclose</key>
-				<false/>
+				<true/>
 			</dict>
 			<dict>
 				<key>destinationuid</key>
@@ -74,7 +72,7 @@
 				<key>modifiersubtext</key>
 				<string>Large text</string>
 				<key>vitoclose</key>
-				<false/>
+				<true/>
 			</dict>
 		</array>
 		<key>97B3A864-1927-4905-A62B-22887D94CBAC</key>
@@ -87,7 +85,7 @@
 				<key>modifiersubtext</key>
 				<string></string>
 				<key>vitoclose</key>
-				<false/>
+				<true/>
 			</dict>
 			<dict>
 				<key>destinationuid</key>
@@ -97,7 +95,7 @@
 				<key>modifiersubtext</key>
 				<string>Large text</string>
 				<key>vitoclose</key>
-				<false/>
+				<true/>
 			</dict>
 		</array>
 		<key>B733403D-49DF-4CA9-B17C-BB6C5B23C96B</key>
@@ -110,7 +108,7 @@
 				<key>modifiersubtext</key>
 				<string></string>
 				<key>vitoclose</key>
-				<false/>
+				<true/>
 			</dict>
 			<dict>
 				<key>destinationuid</key>
@@ -120,7 +118,7 @@
 				<key>modifiersubtext</key>
 				<string>Large text</string>
 				<key>vitoclose</key>
-				<false/>
+				<true/>
 			</dict>
 		</array>
 		<key>B8AA88F0-CC22-4F5A-99DC-C0FD5FD02B00</key>
@@ -133,7 +131,7 @@
 				<key>modifiersubtext</key>
 				<string></string>
 				<key>vitoclose</key>
-				<false/>
+				<true/>
 			</dict>
 			<dict>
 				<key>destinationuid</key>
@@ -143,7 +141,7 @@
 				<key>modifiersubtext</key>
 				<string>Large text</string>
 				<key>vitoclose</key>
-				<false/>
+				<true/>
 			</dict>
 		</array>
 	</dict>
@@ -207,11 +205,11 @@
 				<key>argumenttrimmode</key>
 				<integer>0</integer>
 				<key>argumenttype</key>
-				<integer>1</integer>
+				<integer>0</integer>
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>keyword</key>
-				<string>trans</string>
+				<string>{var:keyword}</string>
 				<key>queuedelaycustom</key>
 				<integer>3</integer>
 				<key>queuedelayimmediatelyinitially</key>
@@ -226,9 +224,9 @@
 				<string>export PYTHONPATH='./libs/'
 export PATH="$HOME/.pyenv/shims:$HOME/.pyenv/bin:$PATH"
 
-python3 translate.py "bing" {query}</string>
+python3 translate.py "bing" "$1"</string>
 				<key>scriptargtype</key>
-				<integer>0</integer>
+				<integer>1</integer>
 				<key>scriptfile</key>
 				<string></string>
 				<key>subtext</key>
@@ -238,7 +236,7 @@ python3 translate.py "bing" {query}</string>
 				<key>type</key>
 				<integer>5</integer>
 				<key>withspace</key>
-				<false/>
+				<true/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.input.scriptfilter</string>
@@ -259,11 +257,11 @@ python3 translate.py "bing" {query}</string>
 				<key>argumenttrimmode</key>
 				<integer>0</integer>
 				<key>argumenttype</key>
-				<integer>1</integer>
+				<integer>0</integer>
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>keyword</key>
-				<string>trans</string>
+				<string>{var:keyword}</string>
 				<key>queuedelaycustom</key>
 				<integer>3</integer>
 				<key>queuedelayimmediatelyinitially</key>
@@ -278,9 +276,9 @@ python3 translate.py "bing" {query}</string>
 				<string>export PYTHONPATH='./libs/'
 export PATH="$HOME/.pyenv/shims:$HOME/.pyenv/bin:$PATH"
 
-python3 translate.py "openai" {query}</string>
+python3 translate.py "openai" "$1"</string>
 				<key>scriptargtype</key>
-				<integer>0</integer>
+				<integer>1</integer>
 				<key>scriptfile</key>
 				<string></string>
 				<key>subtext</key>
@@ -290,7 +288,7 @@ python3 translate.py "openai" {query}</string>
 				<key>type</key>
 				<integer>5</integer>
 				<key>withspace</key>
-				<false/>
+				<true/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.input.scriptfilter</string>
@@ -330,11 +328,11 @@ python3 translate.py "openai" {query}</string>
 				<key>argumenttrimmode</key>
 				<integer>0</integer>
 				<key>argumenttype</key>
-				<integer>1</integer>
+				<integer>0</integer>
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>keyword</key>
-				<string>trans</string>
+				<string>{var:keyword}</string>
 				<key>queuedelaycustom</key>
 				<integer>3</integer>
 				<key>queuedelayimmediatelyinitially</key>
@@ -347,11 +345,10 @@ python3 translate.py "openai" {query}</string>
 				<string>Wait for Google ...</string>
 				<key>script</key>
 				<string>export PYTHONPATH='./libs/'
-export PATH="$HOME/.pyenv/shims:$HOME/.pyenv/bin:$PATH"
 
-python3 translate.py "google" {query}</string>
+python3 translate.py "google" "$1"</string>
 				<key>scriptargtype</key>
-				<integer>0</integer>
+				<integer>1</integer>
 				<key>scriptfile</key>
 				<string></string>
 				<key>subtext</key>
@@ -361,7 +358,7 @@ python3 translate.py "google" {query}</string>
 				<key>type</key>
 				<integer>5</integer>
 				<key>withspace</key>
-				<false/>
+				<true/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.input.scriptfilter</string>
@@ -469,11 +466,11 @@ python3 translate.py "google" {query}</string>
 				<key>argumenttrimmode</key>
 				<integer>0</integer>
 				<key>argumenttype</key>
-				<integer>1</integer>
+				<integer>0</integer>
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>keyword</key>
-				<string>trans</string>
+				<string>{var:keyword}</string>
 				<key>queuedelaycustom</key>
 				<integer>3</integer>
 				<key>queuedelayimmediatelyinitially</key>
@@ -488,9 +485,9 @@ python3 translate.py "google" {query}</string>
 				<string>export PYTHONPATH='./libs/'
 export PATH="$HOME/.pyenv/shims:$HOME/.pyenv/bin:$PATH"
 
-python3 translate.py "youdao" {query}</string>
+python3 translate.py "youdao" "$1"</string>
 				<key>scriptargtype</key>
-				<integer>0</integer>
+				<integer>1</integer>
 				<key>scriptfile</key>
 				<string></string>
 				<key>subtext</key>
@@ -500,7 +497,7 @@ python3 translate.py "youdao" {query}</string>
 				<key>type</key>
 				<integer>5</integer>
 				<key>withspace</key>
-				<false/>
+				<true/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.input.scriptfilter</string>
@@ -540,11 +537,11 @@ python3 translate.py "youdao" {query}</string>
 				<key>argumenttrimmode</key>
 				<integer>0</integer>
 				<key>argumenttype</key>
-				<integer>1</integer>
+				<integer>0</integer>
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>keyword</key>
-				<string>trans</string>
+				<string>{var:keyword}</string>
 				<key>queuedelaycustom</key>
 				<integer>3</integer>
 				<key>queuedelayimmediatelyinitially</key>
@@ -557,11 +554,10 @@ python3 translate.py "youdao" {query}</string>
 				<string>Wait for DeepL ...</string>
 				<key>script</key>
 				<string>export PYTHONPATH='./libs/'
-export PATH="$HOME/.pyenv/shims:$HOME/.pyenv/bin:$PATH"
 
-python3 translate.py "deepl" {query} </string>
+python3 translate.py "deepl" "$1"</string>
 				<key>scriptargtype</key>
-				<integer>0</integer>
+				<integer>1</integer>
 				<key>scriptfile</key>
 				<string></string>
 				<key>subtext</key>
@@ -571,7 +567,7 @@ python3 translate.py "deepl" {query} </string>
 				<key>type</key>
 				<integer>5</integer>
 				<key>withspace</key>
-				<false/>
+				<true/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.input.scriptfilter</string>
@@ -592,11 +588,11 @@ python3 translate.py "deepl" {query} </string>
 				<key>argumenttrimmode</key>
 				<integer>0</integer>
 				<key>argumenttype</key>
-				<integer>1</integer>
+				<integer>0</integer>
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>keyword</key>
-				<string>trans</string>
+				<string>{var:keyword}</string>
 				<key>queuedelaycustom</key>
 				<integer>3</integer>
 				<key>queuedelayimmediatelyinitially</key>
@@ -611,9 +607,9 @@ python3 translate.py "deepl" {query} </string>
 				<string>export PYTHONPATH='./libs/'
 export PATH="$HOME/.pyenv/shims:$HOME/.pyenv/bin:$PATH"
 
-python3 translate.py "baidu" {query}</string>
+python3 translate.py "baidu" "$1"</string>
 				<key>scriptargtype</key>
-				<integer>0</integer>
+				<integer>1</integer>
 				<key>scriptfile</key>
 				<string></string>
 				<key>subtext</key>
@@ -623,7 +619,7 @@ python3 translate.py "baidu" {query}</string>
 				<key>type</key>
 				<integer>5</integer>
 				<key>withspace</key>
-				<false/>
+				<true/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.input.scriptfilter</string>
@@ -647,7 +643,7 @@ python3 translate.py "baidu" {query}</string>
 			<key>type</key>
 			<string>alfred.workflow.output.clipboard</string>
 			<key>uid</key>
-			<string>BD37C87C-26F6-4960-9432-7B7C4074BD65</string>
+			<string>49D4E8D5-0825-4041-AC1C-8DC19D712A60</string>
 			<key>version</key>
 			<integer>3</integer>
 		</dict>
@@ -666,7 +662,7 @@ python3 translate.py "baidu" {query}</string>
 			<key>type</key>
 			<string>alfred.workflow.output.clipboard</string>
 			<key>uid</key>
-			<string>49D4E8D5-0825-4041-AC1C-8DC19D712A60</string>
+			<string>BD37C87C-26F6-4960-9432-7B7C4074BD65</string>
 			<key>version</key>
 			<integer>3</integer>
 		</dict>
@@ -764,20 +760,25 @@ python3 translate.py "baidu" {query}</string>
 Translate text with multiple services. This workflow also support [Universal Actions](https://www.alfredapp.com/universal-actions/).
 
 ### Requirements
-- [Alfred PowerPack](https://www.alfredapp.com/powerpack/)
-- OpenAI Translation: [OpenAI API](https://platform.openai.com/)
-- DeepL Translation: [DeepL API](https://www.deepl.com/pro-api)
+- Google translation is free and unlimited without any dependency (may not work in mainland China).
+- OpenAI translation requires [OpenAI API](https://platform.openai.com/)
+- DeepL translation requires [DeepL API](https://www.deepl.com/pro-api)
 - Other translation services: Requires [translators](https://github.com/UlionTse/translators) library, installed via:
 `pip install --upgrade translators`
 
 
 ### Setup and usage
 - target language code, method of translation and your APIs.
-(Please check [DeepL API docs](https://www.deepl.com/docs-api/translate-text) and [Translators library](https://github.com/UlionTse/translators) for supported language codes)
-- Type anything after keyword trans to translate, it will auto-detect source language.-
+	- (Please check [Translators library](https://github.com/UlionTse/translators) for supported language codes)
+- Type anything after keyword `trans` to translate, it will auto-detect source language.
 - Then select any result and ⏎ to copy text to your clipboard
 - ⌘ + ⏎ to view large text (useful if results are long)
-- For universal control, simple select any text and search for translate.</string>
+- For universal control, simple select any text and search for translate.
+
+### Thanks
+- [py-googletrans](https://www.github.com/ssut/py-googletrans)
+- [translators](https://www.github.com/UlionTse/translators)
+- [Macosicons](https://macosicons.com/)</string>
 	<key>uidata</key>
 	<dict>
 		<key>1834A62D-302E-4218-A23B-DE9C30B48023</key>
@@ -913,22 +914,22 @@ Translate text with multiple services. This workflow also support [Universal Act
 			<key>config</key>
 			<dict>
 				<key>default</key>
-				<string>en-US</string>
+				<string>trans</string>
 				<key>placeholder</key>
 				<string></string>
 				<key>required</key>
-				<false/>
+				<true/>
 				<key>trim</key>
 				<true/>
 			</dict>
 			<key>description</key>
-			<string>Please check https://www.deepl.com/docs-api/translate-text for language codes, e.g. zh for Chinese</string>
+			<string></string>
 			<key>label</key>
-			<string>Target language code</string>
+			<string>Translation Keywords</string>
 			<key>type</key>
 			<string>textfield</string>
 			<key>variable</key>
-			<string>target_language</string>
+			<string>keyword</string>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -980,6 +981,25 @@ Translate text with multiple services. This workflow also support [Universal Act
 				<key>required</key>
 				<false/>
 				<key>text</key>
+				<string>Enable Google Translation</string>
+			</dict>
+			<key>description</key>
+			<string></string>
+			<key>label</key>
+			<string>Google</string>
+			<key>type</key>
+			<string>checkbox</string>
+			<key>variable</key>
+			<string>google_check</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<false/>
+				<key>required</key>
+				<false/>
+				<key>text</key>
 				<string>Enable DeepL Translation</string>
 			</dict>
 			<key>description</key>
@@ -995,7 +1015,7 @@ Translate text with multiple services. This workflow also support [Universal Act
 			<key>config</key>
 			<dict>
 				<key>default</key>
-				<true/>
+				<false/>
 				<key>required</key>
 				<false/>
 				<key>text</key>
@@ -1037,25 +1057,6 @@ Translate text with multiple services. This workflow also support [Universal Act
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Enable Google Translation</string>
-			</dict>
-			<key>description</key>
-			<string></string>
-			<key>label</key>
-			<string>Google</string>
-			<key>type</key>
-			<string>checkbox</string>
-			<key>variable</key>
-			<string>google_check</string>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>default</key>
-				<false/>
-				<key>required</key>
-				<false/>
-				<key>text</key>
 				<string>Enable Baidu Translation</string>
 			</dict>
 			<key>description</key>
@@ -1086,9 +1087,622 @@ Translate text with multiple services. This workflow also support [Universal Act
 			<key>variable</key>
 			<string>youdao_check</string>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>ZH</string>
+				<key>pairs</key>
+				<array>
+					<array>
+						<string>Bulgarian</string>
+						<string>BG</string>
+					</array>
+					<array>
+						<string>Chinese (Simplified)</string>
+						<string>ZH</string>
+					</array>
+					<array>
+						<string>Czech</string>
+						<string>CS</string>
+					</array>
+					<array>
+						<string>Danish</string>
+						<string>DA</string>
+					</array>
+					<array>
+						<string>Dutch</string>
+						<string>NL</string>
+					</array>
+					<array>
+						<string>English (American)</string>
+						<string>EN-US</string>
+					</array>
+					<array>
+						<string>English (British)</string>
+						<string>EN-GB</string>
+					</array>
+					<array>
+						<string>Estonian</string>
+						<string>ET</string>
+					</array>
+					<array>
+						<string>Finnish</string>
+						<string>FI</string>
+					</array>
+					<array>
+						<string>French</string>
+						<string>FR</string>
+					</array>
+					<array>
+						<string>German</string>
+						<string>DE</string>
+					</array>
+					<array>
+						<string>Greek</string>
+						<string>EL</string>
+					</array>
+					<array>
+						<string>Hungarian</string>
+						<string>HU</string>
+					</array>
+					<array>
+						<string>Indonesian</string>
+						<string>ID</string>
+					</array>
+					<array>
+						<string>Italian</string>
+						<string>IT</string>
+					</array>
+					<array>
+						<string>Japanese</string>
+						<string>JA</string>
+					</array>
+					<array>
+						<string>Korean</string>
+						<string>KO</string>
+					</array>
+					<array>
+						<string>Latvian</string>
+						<string>LV</string>
+					</array>
+					<array>
+						<string>Lithuanian</string>
+						<string>LT</string>
+					</array>
+					<array>
+						<string>Norwegian (Bokmål)</string>
+						<string>NB</string>
+					</array>
+					<array>
+						<string>Polish</string>
+						<string>PL</string>
+					</array>
+					<array>
+						<string>Portuguese (all Portuguese varieties excluding Brazilian Portuguese)</string>
+						<string>PT-PT</string>
+					</array>
+					<array>
+						<string>Portuguese (Brazilian)</string>
+						<string>PT-BR</string>
+					</array>
+					<array>
+						<string>Romanian</string>
+						<string>RO</string>
+					</array>
+					<array>
+						<string>Russian</string>
+						<string>RU</string>
+					</array>
+					<array>
+						<string>Slovak</string>
+						<string>SK</string>
+					</array>
+					<array>
+						<string>Slovenian</string>
+						<string>SL</string>
+					</array>
+					<array>
+						<string>Spanish</string>
+						<string>ES</string>
+					</array>
+					<array>
+						<string>Swedish</string>
+						<string>SV</string>
+					</array>
+					<array>
+						<string>Turkish</string>
+						<string>TR</string>
+					</array>
+					<array>
+						<string>Ukrainian</string>
+						<string>UK</string>
+					</array>
+				</array>
+			</dict>
+			<key>description</key>
+			<string></string>
+			<key>label</key>
+			<string>DeepL Target Language</string>
+			<key>type</key>
+			<string>popupbutton</string>
+			<key>variable</key>
+			<string>deepl_target_language</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>zh-cn</string>
+				<key>pairs</key>
+				<array>
+					<array>
+						<string>Afrikaans</string>
+						<string>af</string>
+					</array>
+					<array>
+						<string>Afrikaans</string>
+						<string>af</string>
+					</array>
+					<array>
+						<string>Albanian</string>
+						<string>sq</string>
+					</array>
+					<array>
+						<string>Amharic</string>
+						<string>am</string>
+					</array>
+					<array>
+						<string>Arabic</string>
+						<string>ar</string>
+					</array>
+					<array>
+						<string>Armenian</string>
+						<string>hy</string>
+					</array>
+					<array>
+						<string>Azerbaijani</string>
+						<string>az</string>
+					</array>
+					<array>
+						<string>Basque</string>
+						<string>eu</string>
+					</array>
+					<array>
+						<string>Belarusian</string>
+						<string>be</string>
+					</array>
+					<array>
+						<string>Bengali</string>
+						<string>bn</string>
+					</array>
+					<array>
+						<string>Bosnian</string>
+						<string>bs</string>
+					</array>
+					<array>
+						<string>Bulgarian</string>
+						<string>bg</string>
+					</array>
+					<array>
+						<string>Catalan</string>
+						<string>ca</string>
+					</array>
+					<array>
+						<string>Cebuano</string>
+						<string>ceb</string>
+					</array>
+					<array>
+						<string>Chichewa</string>
+						<string>ny</string>
+					</array>
+					<array>
+						<string>Chinese (Simplified)</string>
+						<string>zh-cn</string>
+					</array>
+					<array>
+						<string>Chinese (Traditional)</string>
+						<string>zh-tw</string>
+					</array>
+					<array>
+						<string>Corsican</string>
+						<string>co</string>
+					</array>
+					<array>
+						<string>Croatian</string>
+						<string>hr</string>
+					</array>
+					<array>
+						<string>Czech</string>
+						<string>cs</string>
+					</array>
+					<array>
+						<string>Danish</string>
+						<string>da</string>
+					</array>
+					<array>
+						<string>Dutch</string>
+						<string>nl</string>
+					</array>
+					<array>
+						<string>English</string>
+						<string>en</string>
+					</array>
+					<array>
+						<string>Esperanto</string>
+						<string>eo</string>
+					</array>
+					<array>
+						<string>Estonian</string>
+						<string>et</string>
+					</array>
+					<array>
+						<string>Filipino</string>
+						<string>tl</string>
+					</array>
+					<array>
+						<string>Finnish</string>
+						<string>fi</string>
+					</array>
+					<array>
+						<string>French</string>
+						<string>fr</string>
+					</array>
+					<array>
+						<string>Frisian</string>
+						<string>fy</string>
+					</array>
+					<array>
+						<string>Galician</string>
+						<string>gl</string>
+					</array>
+					<array>
+						<string>Georgian</string>
+						<string>ka</string>
+					</array>
+					<array>
+						<string>German</string>
+						<string>de</string>
+					</array>
+					<array>
+						<string>Greek</string>
+						<string>el</string>
+					</array>
+					<array>
+						<string>Gujarati</string>
+						<string>gu</string>
+					</array>
+					<array>
+						<string>Haitian Creole</string>
+						<string>ht</string>
+					</array>
+					<array>
+						<string>Hausa</string>
+						<string>ha</string>
+					</array>
+					<array>
+						<string>Hawaiian</string>
+						<string>haw</string>
+					</array>
+					<array>
+						<string>Hebrew</string>
+						<string>iw</string>
+					</array>
+					<array>
+						<string>Hebrew</string>
+						<string>he</string>
+					</array>
+					<array>
+						<string>Hindi</string>
+						<string>hi</string>
+					</array>
+					<array>
+						<string>Hmong</string>
+						<string>hmn</string>
+					</array>
+					<array>
+						<string>Hungarian</string>
+						<string>hu</string>
+					</array>
+					<array>
+						<string>Icelandic</string>
+						<string>is</string>
+					</array>
+					<array>
+						<string>Igbo</string>
+						<string>ig</string>
+					</array>
+					<array>
+						<string>Indonesian</string>
+						<string>id</string>
+					</array>
+					<array>
+						<string>Irish</string>
+						<string>ga</string>
+					</array>
+					<array>
+						<string>Italian</string>
+						<string>it</string>
+					</array>
+					<array>
+						<string>Japanese</string>
+						<string>ja</string>
+					</array>
+					<array>
+						<string>Javanese</string>
+						<string>jw</string>
+					</array>
+					<array>
+						<string>Kannada</string>
+						<string>kn</string>
+					</array>
+					<array>
+						<string>Kazakh</string>
+						<string>kk</string>
+					</array>
+					<array>
+						<string>Khmer</string>
+						<string>km</string>
+					</array>
+					<array>
+						<string>Korean</string>
+						<string>ko</string>
+					</array>
+					<array>
+						<string>Kurdish (Kurmanji)</string>
+						<string>ku</string>
+					</array>
+					<array>
+						<string>Kyrgyz</string>
+						<string>ky</string>
+					</array>
+					<array>
+						<string>Lao</string>
+						<string>lo</string>
+					</array>
+					<array>
+						<string>Latin</string>
+						<string>la</string>
+					</array>
+					<array>
+						<string>Latvian</string>
+						<string>lv</string>
+					</array>
+					<array>
+						<string>Lithuanian</string>
+						<string>lt</string>
+					</array>
+					<array>
+						<string>Luxembourgish</string>
+						<string>lb</string>
+					</array>
+					<array>
+						<string>Macedonian</string>
+						<string>mk</string>
+					</array>
+					<array>
+						<string>Malagasy</string>
+						<string>mg</string>
+					</array>
+					<array>
+						<string>Malay</string>
+						<string>ms</string>
+					</array>
+					<array>
+						<string>Malayalam</string>
+						<string>ml</string>
+					</array>
+					<array>
+						<string>Maltese</string>
+						<string>mt</string>
+					</array>
+					<array>
+						<string>Maori</string>
+						<string>mi</string>
+					</array>
+					<array>
+						<string>Marathi</string>
+						<string>mr</string>
+					</array>
+					<array>
+						<string>Mongolian</string>
+						<string>mn</string>
+					</array>
+					<array>
+						<string>Myanmar (Burmese)</string>
+						<string>my</string>
+					</array>
+					<array>
+						<string>Nepali</string>
+						<string>ne</string>
+					</array>
+					<array>
+						<string>Norwegian</string>
+						<string>no</string>
+					</array>
+					<array>
+						<string>Odia</string>
+						<string>or</string>
+					</array>
+					<array>
+						<string>Pashto</string>
+						<string>ps</string>
+					</array>
+					<array>
+						<string>Persian</string>
+						<string>fa</string>
+					</array>
+					<array>
+						<string>Polish</string>
+						<string>pl</string>
+					</array>
+					<array>
+						<string>Portuguese</string>
+						<string>pt</string>
+					</array>
+					<array>
+						<string>Punjabi</string>
+						<string>pa</string>
+					</array>
+					<array>
+						<string>Romanian</string>
+						<string>ro</string>
+					</array>
+					<array>
+						<string>Russian</string>
+						<string>ru</string>
+					</array>
+					<array>
+						<string>Samoan</string>
+						<string>sm</string>
+					</array>
+					<array>
+						<string>Scots Gaelic</string>
+						<string>gd</string>
+					</array>
+					<array>
+						<string>Serbian</string>
+						<string>sr</string>
+					</array>
+					<array>
+						<string>Sesotho</string>
+						<string>st</string>
+					</array>
+					<array>
+						<string>Shona</string>
+						<string>sn</string>
+					</array>
+					<array>
+						<string>Sindhi</string>
+						<string>sd</string>
+					</array>
+					<array>
+						<string>Sinhala</string>
+						<string>si</string>
+					</array>
+					<array>
+						<string>Slovak</string>
+						<string>sk</string>
+					</array>
+					<array>
+						<string>Slovenian</string>
+						<string>sl</string>
+					</array>
+					<array>
+						<string>Somali</string>
+						<string>so</string>
+					</array>
+					<array>
+						<string>Spanish</string>
+						<string>es</string>
+					</array>
+					<array>
+						<string>Sundanese</string>
+						<string>su</string>
+					</array>
+					<array>
+						<string>Swahili</string>
+						<string>sw</string>
+					</array>
+					<array>
+						<string>Swedish</string>
+						<string>sv</string>
+					</array>
+					<array>
+						<string>Tajik</string>
+						<string>tg</string>
+					</array>
+					<array>
+						<string>Tamil</string>
+						<string>ta</string>
+					</array>
+					<array>
+						<string>Telugu</string>
+						<string>te</string>
+					</array>
+					<array>
+						<string>Thai</string>
+						<string>th</string>
+					</array>
+					<array>
+						<string>Turkish</string>
+						<string>tr</string>
+					</array>
+					<array>
+						<string>Ukrainian</string>
+						<string>uk</string>
+					</array>
+					<array>
+						<string>Urdu</string>
+						<string>ur</string>
+					</array>
+					<array>
+						<string>Uyghur</string>
+						<string>ug</string>
+					</array>
+					<array>
+						<string>Uzbek</string>
+						<string>uz</string>
+					</array>
+					<array>
+						<string>Vietnamese</string>
+						<string>vi</string>
+					</array>
+					<array>
+						<string>Welsh</string>
+						<string>cy</string>
+					</array>
+					<array>
+						<string>Xhosa</string>
+						<string>xh</string>
+					</array>
+					<array>
+						<string>Yiddish</string>
+						<string>yi</string>
+					</array>
+					<array>
+						<string>Yoruba</string>
+						<string>yo</string>
+					</array>
+					<array>
+						<string>Zulu</string>
+						<string>zu</string>
+					</array>
+				</array>
+			</dict>
+			<key>description</key>
+			<string></string>
+			<key>label</key>
+			<string>Google Target Language</string>
+			<key>type</key>
+			<string>popupbutton</string>
+			<key>variable</key>
+			<string>google_target_language</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>zh</string>
+				<key>placeholder</key>
+				<string></string>
+				<key>required</key>
+				<false/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string>Language code used for OpenAI and other services.</string>
+			<key>label</key>
+			<string>Target language code</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>target_language</string>
+		</dict>
 	</array>
 	<key>version</key>
-	<string>1.2</string>
+	<string>1.3</string>
 	<key>webaddress</key>
 	<string>https://github.com/yinan-c/alfred-translate-it</string>
 </dict>

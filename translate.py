@@ -10,13 +10,10 @@ bing_check = os.getenv("bing_check")
 google_check = os.getenv("google_check")
 baidu_check = os.getenv("baidu_check")
 youdao_check = os.getenv("youdao_check")
-
+deepl_target_language = os.getenv("deepl_target_language")
+google_target_language = os.getenv("google_target_language")
 target_language = os.getenv("target_language")
-
-if target_language.lower() in ['en-gb', 'en-us']:
-    translators_language = 'en'
-else:
-    translators_language = target_language
+translators_language = os.getenv("target_language")
 
 def get_query() -> str:
     """Join the arguments into a query string."""
@@ -66,7 +63,7 @@ if openai_check == '1' and sys.argv[1] == 'openai':
 if deepl_check == '1' and sys.argv[1] == 'deepl':
     import deepl
     deepl_translator = deepl.Translator(auth_key) 
-    deepl_result = deepl_translator.translate_text([input_text], target_lang=target_language) 
+    deepl_result = deepl_translator.translate_text([input_text], target_lang=deepl_target_language) 
     deepl_text = deepl_result[0].text
 
     deepl_output = {
@@ -100,10 +97,10 @@ def translation_output(check, translator_name, icon_path, input_text, target_lan
 if google_check == '1' and sys.argv[1] == 'google':
     from googletrans import Translator
     translator = Translator()
-    translated_text = translator.translate(input_text, dest=target_language).text
+    translated_text = translator.translate(input_text, dest=google_target_language).text
     google_output = {
         "type": "default",
-        "subtitle": "Google Translate",
+        "subtitle": "Google",
         "title": translated_text,
         "arg": translated_text,
         'icon': {
