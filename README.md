@@ -1,6 +1,6 @@
 # Alfred Translate-It 
 
-An Alfred 5 workflow to translate text using OpenAI, DeepL, Google, Bing, Baidu and Youdao. This workflow also support [Universal Actions](https://www.alfredapp.com/universal-actions/).
+An Alfred 5 workflow to translate text using OpenAI, DeepL, Google, Bing, Baidu and Youdao. This workflow also supports [Universal Actions](https://www.alfredapp.com/universal-actions/).
 
 ~~**NOTE**: OpenAI model 'text-davinci-003' is used in translation.~~ (changed to gpt-3.5-turbo in v1.2)
 
