@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>bundleid</key>
-	<string>com.yinanchen.alfred-translate-it</string>
+	<string>com.yinans.alfred-translate-it</string>
 	<key>connections</key>
 	<dict>
 		<key>276B99B8-9DF7-4D36-BFAD-273DAB4C007F</key>
@@ -52,6 +52,75 @@
 				<true/>
 			</dict>
 		</array>
+		<key>4A29E489-B551-43F8-BE90-E8AE61BA7428</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>3EA2A89D-3D64-484E-9016-DDF9DC232985</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>94AF8051-C52C-414A-8397-80A3B9D4D4B0</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>Large text</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>685F9686-DE76-418A-8706-A41CA0E19A31</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>AF265415-462F-4253-A695-BA73D8504936</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>45E24534-7E24-4B62-9841-A411F3C91269</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>Large text</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>70148B49-97E4-45B9-BBFF-CA123112E933</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>2CB433B2-E56F-4C19-BE03-90152CBFD155</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>B8000640-4408-4EF4-9B6C-47B7B97AD57E</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>Large text</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>718D0C0A-7ABC-4EDA-8DA6-BBADD670B997</key>
 		<array>
 			<dict>
@@ -96,6 +165,29 @@
 				<string>Large text</string>
 				<key>vitoclose</key>
 				<true/>
+			</dict>
+		</array>
+		<key>A11925AE-91DD-4FDF-9360-1B387950D6C1</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>7EEB44BA-23D0-43F0-8A9E-2E3150AFC36B</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>F9B1021D-242C-4D24-B491-16C3980CD60E</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>Large text</string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>B733403D-49DF-4CA9-B17C-BB6C5B23C96B</key>
@@ -144,9 +236,55 @@
 				<true/>
 			</dict>
 		</array>
+		<key>C466FA7B-3E7A-42FD-8F4B-88704ABEA186</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>FB4584D2-C66F-4083-9A1E-F2DB2DF0FA42</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>113E498C-8F78-4617-A485-EB919F109AA2</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>Large text</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>E59EA3D5-387A-430F-B6CC-DF0EA22BE3A4</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>A02D4F2A-37AD-42FC-B82F-BD0F94AABEC0</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>97D8CE04-788C-4BAA-A784-E3055D107856</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>Large text</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 	</dict>
 	<key>createdby</key>
-	<string>Yinan Chen</string>
+	<string>Yinan</string>
 	<key>description</key>
 	<string>Translate using multiple services</string>
 	<key>disabled</key>
@@ -155,6 +293,58 @@
 	<string>Translate It</string>
 	<key>objects</key>
 	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>{var:keyword}</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Wait for Bing ...</string>
+				<key>script</key>
+				<string>export PYTHONPATH='./libs/'
+export PATH="$HOME/.pyenv/shims:$HOME/.pyenv/bin:$PATH"
+
+python3 translate.py "bing" "$1"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>Translate with Bing</string>
+				<key>type</key>
+				<integer>5</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>718D0C0A-7ABC-4EDA-8DA6-BBADD670B997</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
@@ -219,58 +409,6 @@
 				<key>queuemode</key>
 				<integer>1</integer>
 				<key>runningsubtext</key>
-				<string>Wait for Bing ...</string>
-				<key>script</key>
-				<string>export PYTHONPATH='./libs/'
-export PATH="$HOME/.pyenv/shims:$HOME/.pyenv/bin:$PATH"
-
-python3 translate.py "bing" "$1"</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>subtext</key>
-				<string></string>
-				<key>title</key>
-				<string>Translate with Bing</string>
-				<key>type</key>
-				<integer>5</integer>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.scriptfilter</string>
-			<key>uid</key>
-			<string>718D0C0A-7ABC-4EDA-8DA6-BBADD670B997</string>
-			<key>version</key>
-			<integer>3</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>alfredfiltersresults</key>
-				<false/>
-				<key>alfredfiltersresultsmatchmode</key>
-				<integer>0</integer>
-				<key>argumenttreatemptyqueryasnil</key>
-				<true/>
-				<key>argumenttrimmode</key>
-				<integer>0</integer>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>keyword</key>
-				<string>{var:keyword}</string>
-				<key>queuedelaycustom</key>
-				<integer>3</integer>
-				<key>queuedelayimmediatelyinitially</key>
-				<true/>
-				<key>queuedelaymode</key>
-				<integer>0</integer>
-				<key>queuemode</key>
-				<integer>1</integer>
-				<key>runningsubtext</key>
 				<string>Wait for AI ...</string>
 				<key>script</key>
 				<string>export PYTHONPATH='./libs/'
@@ -294,25 +432,6 @@ python3 translate.py "openai" "$1"</string>
 			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
 			<string>276B99B8-9DF7-4D36-BFAD-273DAB4C007F</string>
-			<key>version</key>
-			<integer>3</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>autopaste</key>
-				<false/>
-				<key>clipboardtext</key>
-				<string>{query}</string>
-				<key>ignoredynamicplaceholders</key>
-				<false/>
-				<key>transient</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.clipboard</string>
-			<key>uid</key>
-			<string>506B1F8E-055C-4BC6-ACE2-A99DDF1CAEA4</string>
 			<key>version</key>
 			<integer>3</integer>
 		</dict>
@@ -364,6 +483,25 @@ python3 translate.py "google" "$1"</string>
 			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
 			<string>281DAF59-4B8C-4B95-A09F-A9180C5A6F9F</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>506B1F8E-055C-4BC6-ACE2-A99DDF1CAEA4</string>
 			<key>version</key>
 			<integer>3</integer>
 		</dict>
@@ -457,6 +595,25 @@ python3 translate.py "google" "$1"</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>6D6D570D-8729-4BC7-BC1D-1C23AC224950</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>alfredfiltersresults</key>
 				<false/>
 				<key>alfredfiltersresultsmatchmode</key>
@@ -521,7 +678,7 @@ python3 translate.py "youdao" "$1"</string>
 			<key>type</key>
 			<string>alfred.workflow.output.clipboard</string>
 			<key>uid</key>
-			<string>6D6D570D-8729-4BC7-BC1D-1C23AC224950</string>
+			<string>49D4E8D5-0825-4041-AC1C-8DC19D712A60</string>
 			<key>version</key>
 			<integer>3</integer>
 		</dict>
@@ -573,6 +730,25 @@ python3 translate.py "deepl" "$1"</string>
 			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
 			<string>B8AA88F0-CC22-4F5A-99DC-C0FD5FD02B00</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>BD37C87C-26F6-4960-9432-7B7C4074BD65</string>
 			<key>version</key>
 			<integer>3</integer>
 		</dict>
@@ -631,38 +807,29 @@ python3 translate.py "baidu" "$1"</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>autopaste</key>
-				<false/>
-				<key>clipboardtext</key>
-				<string>{query}</string>
+				<key>alignment</key>
+				<integer>0</integer>
+				<key>backgroundcolor</key>
+				<string></string>
+				<key>fadespeed</key>
+				<integer>0</integer>
+				<key>fillmode</key>
+				<integer>0</integer>
+				<key>font</key>
+				<string></string>
 				<key>ignoredynamicplaceholders</key>
 				<false/>
-				<key>transient</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.clipboard</string>
-			<key>uid</key>
-			<string>49D4E8D5-0825-4041-AC1C-8DC19D712A60</string>
-			<key>version</key>
-			<integer>3</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>autopaste</key>
-				<false/>
-				<key>clipboardtext</key>
+				<key>largetypetext</key>
 				<string>{query}</string>
-				<key>ignoredynamicplaceholders</key>
-				<false/>
-				<key>transient</key>
-				<false/>
+				<key>textcolor</key>
+				<string></string>
+				<key>wrapat</key>
+				<integer>50</integer>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.output.clipboard</string>
+			<string>alfred.workflow.output.largetype</string>
 			<key>uid</key>
-			<string>BD37C87C-26F6-4960-9432-7B7C4074BD65</string>
+			<string>27B5F019-0C02-4928-85C8-CCA30DC797B1</string>
 			<key>version</key>
 			<integer>3</integer>
 		</dict>
@@ -720,7 +887,219 @@ python3 translate.py "baidu" "$1"</string>
 			<key>type</key>
 			<string>alfred.workflow.output.largetype</string>
 			<key>uid</key>
-			<string>27B5F019-0C02-4928-85C8-CCA30DC797B1</string>
+			<string>579B173C-7505-4F1E-8398-C7CF5CCB78C4</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>7EEB44BA-23D0-43F0-8A9E-2E3150AFC36B</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>{var:keyword_base}</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Wait for AI ...</string>
+				<key>script</key>
+				<string>export PYTHONPATH='./libs/'
+export PATH="$HOME/.pyenv/shims:$HOME/.pyenv/bin:$PATH"
+
+python3 translate.py "openai_base" "$1"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>Translate to Base with OpenAI</string>
+				<key>type</key>
+				<integer>5</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>A11925AE-91DD-4FDF-9360-1B387950D6C1</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>{var:keyword_base}</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Wait for Bing ...</string>
+				<key>script</key>
+				<string>export PYTHONPATH='./libs/'
+export PATH="$HOME/.pyenv/shims:$HOME/.pyenv/bin:$PATH"
+
+python3 translate.py "bing_base" "$1"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>Translate to Base with Bing</string>
+				<key>type</key>
+				<integer>5</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>70148B49-97E4-45B9-BBFF-CA123112E933</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>2CB433B2-E56F-4C19-BE03-90152CBFD155</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>3EA2A89D-3D64-484E-9016-DDF9DC232985</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>{var:keyword_base}</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Wait for Google ...</string>
+				<key>script</key>
+				<string>export PYTHONPATH='./libs/'
+
+python3 translate.py "google_base" "$1"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>Translate to Base with Google</string>
+				<key>type</key>
+				<integer>5</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>4A29E489-B551-43F8-BE90-E8AE61BA7428</string>
 			<key>version</key>
 			<integer>3</integer>
 		</dict>
@@ -749,7 +1128,364 @@ python3 translate.py "baidu" "$1"</string>
 			<key>type</key>
 			<string>alfred.workflow.output.largetype</string>
 			<key>uid</key>
-			<string>579B173C-7505-4F1E-8398-C7CF5CCB78C4</string>
+			<string>B8000640-4408-4EF4-9B6C-47B7B97AD57E</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alignment</key>
+				<integer>0</integer>
+				<key>backgroundcolor</key>
+				<string></string>
+				<key>fadespeed</key>
+				<integer>0</integer>
+				<key>fillmode</key>
+				<integer>0</integer>
+				<key>font</key>
+				<string></string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>largetypetext</key>
+				<string>{query}</string>
+				<key>textcolor</key>
+				<string></string>
+				<key>wrapat</key>
+				<integer>50</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.largetype</string>
+			<key>uid</key>
+			<string>F9B1021D-242C-4D24-B491-16C3980CD60E</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alignment</key>
+				<integer>0</integer>
+				<key>backgroundcolor</key>
+				<string></string>
+				<key>fadespeed</key>
+				<integer>0</integer>
+				<key>fillmode</key>
+				<integer>0</integer>
+				<key>font</key>
+				<string></string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>largetypetext</key>
+				<string>{query}</string>
+				<key>textcolor</key>
+				<string></string>
+				<key>wrapat</key>
+				<integer>50</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.largetype</string>
+			<key>uid</key>
+			<string>94AF8051-C52C-414A-8397-80A3B9D4D4B0</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>{var:keyword_base}</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Wait for Youdao ...</string>
+				<key>script</key>
+				<string>export PYTHONPATH='./libs/'
+export PATH="$HOME/.pyenv/shims:$HOME/.pyenv/bin:$PATH"
+
+python3 translate.py "youdao_base" "$1"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>Translate to Base with Youdao</string>
+				<key>type</key>
+				<integer>5</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>E59EA3D5-387A-430F-B6CC-DF0EA22BE3A4</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>A02D4F2A-37AD-42FC-B82F-BD0F94AABEC0</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>AF265415-462F-4253-A695-BA73D8504936</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>{var:keyword_base}</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Wait for Baidu ...</string>
+				<key>script</key>
+				<string>export PYTHONPATH='./libs/'
+export PATH="$HOME/.pyenv/shims:$HOME/.pyenv/bin:$PATH"
+
+python3 translate.py "baidu_base" "$1"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>Translate to Base with Baidu</string>
+				<key>type</key>
+				<integer>5</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>685F9686-DE76-418A-8706-A41CA0E19A31</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>FB4584D2-C66F-4083-9A1E-F2DB2DF0FA42</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>{var:keyword_base}</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Wait for DeepL ...</string>
+				<key>script</key>
+				<string>export PYTHONPATH='./libs/'
+
+python3 translate.py "deepl_base" "$1"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>Translate to Base with DeepL</string>
+				<key>type</key>
+				<integer>5</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>C466FA7B-3E7A-42FD-8F4B-88704ABEA186</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alignment</key>
+				<integer>0</integer>
+				<key>backgroundcolor</key>
+				<string></string>
+				<key>fadespeed</key>
+				<integer>0</integer>
+				<key>fillmode</key>
+				<integer>0</integer>
+				<key>font</key>
+				<string></string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>largetypetext</key>
+				<string>{query}</string>
+				<key>textcolor</key>
+				<string></string>
+				<key>wrapat</key>
+				<integer>50</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.largetype</string>
+			<key>uid</key>
+			<string>113E498C-8F78-4617-A485-EB919F109AA2</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alignment</key>
+				<integer>0</integer>
+				<key>backgroundcolor</key>
+				<string></string>
+				<key>fadespeed</key>
+				<integer>0</integer>
+				<key>fillmode</key>
+				<integer>0</integer>
+				<key>font</key>
+				<string></string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>largetypetext</key>
+				<string>{query}</string>
+				<key>textcolor</key>
+				<string></string>
+				<key>wrapat</key>
+				<integer>50</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.largetype</string>
+			<key>uid</key>
+			<string>97D8CE04-788C-4BAA-A784-E3055D107856</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alignment</key>
+				<integer>0</integer>
+				<key>backgroundcolor</key>
+				<string></string>
+				<key>fadespeed</key>
+				<integer>0</integer>
+				<key>fillmode</key>
+				<integer>0</integer>
+				<key>font</key>
+				<string></string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>largetypetext</key>
+				<string>{query}</string>
+				<key>textcolor</key>
+				<string></string>
+				<key>wrapat</key>
+				<integer>50</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.largetype</string>
+			<key>uid</key>
+			<string>45E24534-7E24-4B62-9841-A411F3C91269</string>
 			<key>version</key>
 			<integer>3</integer>
 		</dict>
@@ -774,6 +1510,7 @@ Translate text with multiple services. This workflow also support [Universal Act
 - Then select any result and ⏎ to copy text to your clipboard
 - ⌘ + ⏎ to view large text (useful if results are long)
 - For universal control, simple select any text and search for translate.
+- Setup basic language configs (base target and keyword) in case you want to add a second translation target, which might be beneficial for bidirectional translation or multilingual support.
 
 ### Thanks
 - [py-googletrans](https://www.github.com/ssut/py-googletrans)
@@ -781,131 +1518,257 @@ Translate text with multiple services. This workflow also support [Universal Act
 - [Macosicons](https://macosicons.com/)</string>
 	<key>uidata</key>
 	<dict>
+		<key>113E498C-8F78-4617-A485-EB919F109AA2</key>
+		<dict>
+			<key>xpos</key>
+			<real>1275</real>
+			<key>ypos</key>
+			<real>1080</real>
+		</dict>
 		<key>1834A62D-302E-4218-A23B-DE9C30B48023</key>
 		<dict>
 			<key>xpos</key>
-			<real>755</real>
+			<real>880</real>
 			<key>ypos</key>
 			<real>65</real>
 		</dict>
 		<key>276B99B8-9DF7-4D36-BFAD-273DAB4C007F</key>
 		<dict>
 			<key>xpos</key>
-			<real>120</real>
+			<real>245</real>
 			<key>ypos</key>
 			<real>65</real>
 		</dict>
 		<key>27B5F019-0C02-4928-85C8-CCA30DC797B1</key>
 		<dict>
 			<key>xpos</key>
-			<real>1150</real>
+			<real>1275</real>
 			<key>ypos</key>
 			<real>475</real>
 		</dict>
 		<key>281DAF59-4B8C-4B95-A09F-A9180C5A6F9F</key>
 		<dict>
 			<key>xpos</key>
-			<real>950</real>
+			<real>1075</real>
 			<key>ypos</key>
 			<real>70</real>
+		</dict>
+		<key>2CB433B2-E56F-4C19-BE03-90152CBFD155</key>
+		<dict>
+			<key>xpos</key>
+			<real>880</real>
+			<key>ypos</key>
+			<real>670</real>
+		</dict>
+		<key>3EA2A89D-3D64-484E-9016-DDF9DC232985</key>
+		<dict>
+			<key>xpos</key>
+			<real>1285</real>
+			<key>ypos</key>
+			<real>675</real>
+		</dict>
+		<key>45E24534-7E24-4B62-9841-A411F3C91269</key>
+		<dict>
+			<key>xpos</key>
+			<real>875</real>
+			<key>ypos</key>
+			<real>1085</real>
 		</dict>
 		<key>49D4E8D5-0825-4041-AC1C-8DC19D712A60</key>
 		<dict>
 			<key>xpos</key>
-			<real>1150</real>
+			<real>1275</real>
 			<key>ypos</key>
 			<real>345</real>
+		</dict>
+		<key>4A29E489-B551-43F8-BE90-E8AE61BA7428</key>
+		<dict>
+			<key>xpos</key>
+			<real>1075</real>
+			<key>ypos</key>
+			<real>675</real>
 		</dict>
 		<key>506B1F8E-055C-4BC6-ACE2-A99DDF1CAEA4</key>
 		<dict>
 			<key>xpos</key>
-			<real>1160</real>
+			<real>1285</real>
 			<key>ypos</key>
 			<real>70</real>
 		</dict>
 		<key>579B173C-7505-4F1E-8398-C7CF5CCB78C4</key>
 		<dict>
 			<key>xpos</key>
-			<real>750</real>
+			<real>875</real>
 			<key>ypos</key>
 			<real>480</real>
+		</dict>
+		<key>685F9686-DE76-418A-8706-A41CA0E19A31</key>
+		<dict>
+			<key>xpos</key>
+			<real>680</real>
+			<key>ypos</key>
+			<real>950</real>
 		</dict>
 		<key>6D6D570D-8729-4BC7-BC1D-1C23AC224950</key>
 		<dict>
 			<key>xpos</key>
-			<real>325</real>
+			<real>450</real>
 			<key>ypos</key>
 			<real>340</real>
+		</dict>
+		<key>70148B49-97E4-45B9-BBFF-CA123112E933</key>
+		<dict>
+			<key>xpos</key>
+			<real>675</real>
+			<key>ypos</key>
+			<real>670</real>
 		</dict>
 		<key>718D0C0A-7ABC-4EDA-8DA6-BBADD670B997</key>
 		<dict>
 			<key>xpos</key>
-			<real>550</real>
+			<real>675</real>
 			<key>ypos</key>
 			<real>65</real>
 		</dict>
 		<key>75A28FE4-5130-4551-9D60-F8D206024627</key>
 		<dict>
 			<key>xpos</key>
-			<real>1160</real>
+			<real>1285</real>
 			<key>ypos</key>
 			<real>205</real>
+		</dict>
+		<key>7EEB44BA-23D0-43F0-8A9E-2E3150AFC36B</key>
+		<dict>
+			<key>xpos</key>
+			<real>450</real>
+			<key>ypos</key>
+			<real>670</real>
 		</dict>
 		<key>8AA9AE0F-7123-4ABE-A81D-52EC8D7FC00B</key>
 		<dict>
 			<key>xpos</key>
-			<real>325</real>
+			<real>450</real>
 			<key>ypos</key>
 			<real>200</real>
 		</dict>
 		<key>91CFA030-F7CC-4F89-94C8-38F3DFBB5A21</key>
 		<dict>
 			<key>xpos</key>
-			<real>325</real>
+			<real>450</real>
 			<key>ypos</key>
 			<real>475</real>
+		</dict>
+		<key>94AF8051-C52C-414A-8397-80A3B9D4D4B0</key>
+		<dict>
+			<key>xpos</key>
+			<real>1285</real>
+			<key>ypos</key>
+			<real>810</real>
 		</dict>
 		<key>97B3A864-1927-4905-A62B-22887D94CBAC</key>
 		<dict>
 			<key>xpos</key>
-			<real>555</real>
+			<real>680</real>
 			<key>ypos</key>
 			<real>345</real>
+		</dict>
+		<key>97D8CE04-788C-4BAA-A784-E3055D107856</key>
+		<dict>
+			<key>xpos</key>
+			<real>450</real>
+			<key>ypos</key>
+			<real>1080</real>
 		</dict>
 		<key>99BF70FA-7302-441E-9270-2EF7A37EC770</key>
 		<dict>
 			<key>xpos</key>
-			<real>325</real>
+			<real>450</real>
 			<key>ypos</key>
 			<real>65</real>
 		</dict>
 		<key>9F9E3773-6C7B-442B-A6B9-0AF6EDEC7486</key>
 		<dict>
 			<key>xpos</key>
-			<real>755</real>
+			<real>880</real>
 			<key>ypos</key>
 			<real>200</real>
+		</dict>
+		<key>A02D4F2A-37AD-42FC-B82F-BD0F94AABEC0</key>
+		<dict>
+			<key>xpos</key>
+			<real>450</real>
+			<key>ypos</key>
+			<real>945</real>
+		</dict>
+		<key>A11925AE-91DD-4FDF-9360-1B387950D6C1</key>
+		<dict>
+			<key>xpos</key>
+			<real>245</real>
+			<key>ypos</key>
+			<real>670</real>
+		</dict>
+		<key>AF265415-462F-4253-A695-BA73D8504936</key>
+		<dict>
+			<key>xpos</key>
+			<real>880</real>
+			<key>ypos</key>
+			<real>950</real>
 		</dict>
 		<key>B733403D-49DF-4CA9-B17C-BB6C5B23C96B</key>
 		<dict>
 			<key>xpos</key>
-			<real>120</real>
+			<real>245</real>
 			<key>ypos</key>
 			<real>340</real>
+		</dict>
+		<key>B8000640-4408-4EF4-9B6C-47B7B97AD57E</key>
+		<dict>
+			<key>xpos</key>
+			<real>880</real>
+			<key>ypos</key>
+			<real>805</real>
 		</dict>
 		<key>B8AA88F0-CC22-4F5A-99DC-C0FD5FD02B00</key>
 		<dict>
 			<key>xpos</key>
-			<real>955</real>
+			<real>1080</real>
 			<key>ypos</key>
 			<real>345</real>
 		</dict>
 		<key>BD37C87C-26F6-4960-9432-7B7C4074BD65</key>
 		<dict>
 			<key>xpos</key>
-			<real>755</real>
+			<real>880</real>
 			<key>ypos</key>
 			<real>345</real>
+		</dict>
+		<key>C466FA7B-3E7A-42FD-8F4B-88704ABEA186</key>
+		<dict>
+			<key>xpos</key>
+			<real>1080</real>
+			<key>ypos</key>
+			<real>950</real>
+		</dict>
+		<key>E59EA3D5-387A-430F-B6CC-DF0EA22BE3A4</key>
+		<dict>
+			<key>xpos</key>
+			<real>245</real>
+			<key>ypos</key>
+			<real>945</real>
+		</dict>
+		<key>F9B1021D-242C-4D24-B491-16C3980CD60E</key>
+		<dict>
+			<key>xpos</key>
+			<real>450</real>
+			<key>ypos</key>
+			<real>805</real>
+		</dict>
+		<key>FB4584D2-C66F-4083-9A1E-F2DB2DF0FA42</key>
+		<dict>
+			<key>xpos</key>
+			<real>1275</real>
+			<key>ypos</key>
+			<real>950</real>
 		</dict>
 	</dict>
 	<key>userconfigurationconfig</key>
@@ -925,7 +1788,7 @@ Translate text with multiple services. This workflow also support [Universal Act
 			<key>description</key>
 			<string></string>
 			<key>label</key>
-			<string>Translation Keywords</string>
+			<string>Translation Keyword 1</string>
 			<key>type</key>
 			<string>textfield</string>
 			<key>variable</key>
@@ -935,22 +1798,136 @@ Translate text with multiple services. This workflow also support [Universal Act
 			<key>config</key>
 			<dict>
 				<key>default</key>
-				<string></string>
+				<string>trans</string>
 				<key>placeholder</key>
 				<string></string>
 				<key>required</key>
-				<false/>
+				<true/>
 				<key>trim</key>
 				<true/>
 			</dict>
 			<key>description</key>
-			<string></string>
+			<string>Translation keyword for 2nd target language</string>
 			<key>label</key>
-			<string>OpenAI API key</string>
+			<string>Translation Keyword 2</string>
 			<key>type</key>
 			<string>textfield</string>
 			<key>variable</key>
-			<string>OPENAI_API_KEY</string>
+			<string>keyword_base</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<true/>
+				<key>required</key>
+				<false/>
+				<key>text</key>
+				<string>No further configuration required</string>
+			</dict>
+			<key>description</key>
+			<string></string>
+			<key>label</key>
+			<string>Google</string>
+			<key>type</key>
+			<string>checkbox</string>
+			<key>variable</key>
+			<string>google_check</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<false/>
+				<key>required</key>
+				<false/>
+				<key>text</key>
+				<string>Requires a free DeepL API</string>
+			</dict>
+			<key>description</key>
+			<string></string>
+			<key>label</key>
+			<string>DeepL</string>
+			<key>type</key>
+			<string>checkbox</string>
+			<key>variable</key>
+			<string>deepl_check</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<false/>
+				<key>required</key>
+				<false/>
+				<key>text</key>
+				<string>Requires OPENAI API</string>
+			</dict>
+			<key>description</key>
+			<string></string>
+			<key>label</key>
+			<string>OpenAI</string>
+			<key>type</key>
+			<string>checkbox</string>
+			<key>variable</key>
+			<string>openai_check</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<false/>
+				<key>required</key>
+				<false/>
+				<key>text</key>
+				<string>Deprecated: requires extra library and slow.</string>
+			</dict>
+			<key>description</key>
+			<string></string>
+			<key>label</key>
+			<string>Bing</string>
+			<key>type</key>
+			<string>checkbox</string>
+			<key>variable</key>
+			<string>bing_check</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<false/>
+				<key>required</key>
+				<false/>
+				<key>text</key>
+				<string>Deprecated: requires extra library and slow.</string>
+			</dict>
+			<key>description</key>
+			<string></string>
+			<key>label</key>
+			<string>Baidu</string>
+			<key>type</key>
+			<string>checkbox</string>
+			<key>variable</key>
+			<string>baidu_check</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<false/>
+				<key>required</key>
+				<false/>
+				<key>text</key>
+				<string>Deprecated: requires extra library and slow.</string>
+			</dict>
+			<key>description</key>
+			<string></string>
+			<key>label</key>
+			<string>Youdao</string>
+			<key>type</key>
+			<string>checkbox</string>
+			<key>variable</key>
+			<string>youdao_check</string>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -977,257 +1954,22 @@ Translate text with multiple services. This workflow also support [Universal Act
 			<key>config</key>
 			<dict>
 				<key>default</key>
+				<string></string>
+				<key>placeholder</key>
+				<string></string>
+				<key>required</key>
+				<false/>
+				<key>trim</key>
 				<true/>
-				<key>required</key>
-				<false/>
-				<key>text</key>
-				<string>Enable Google Translation</string>
 			</dict>
 			<key>description</key>
 			<string></string>
 			<key>label</key>
-			<string>Google</string>
+			<string>OpenAI API key</string>
 			<key>type</key>
-			<string>checkbox</string>
+			<string>textfield</string>
 			<key>variable</key>
-			<string>google_check</string>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>default</key>
-				<false/>
-				<key>required</key>
-				<false/>
-				<key>text</key>
-				<string>Enable DeepL Translation</string>
-			</dict>
-			<key>description</key>
-			<string></string>
-			<key>label</key>
-			<string>DeepL</string>
-			<key>type</key>
-			<string>checkbox</string>
-			<key>variable</key>
-			<string>deepl_check</string>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>default</key>
-				<false/>
-				<key>required</key>
-				<false/>
-				<key>text</key>
-				<string>Enable OpenAI Translation</string>
-			</dict>
-			<key>description</key>
-			<string></string>
-			<key>label</key>
-			<string>OpenAI</string>
-			<key>type</key>
-			<string>checkbox</string>
-			<key>variable</key>
-			<string>openai_check</string>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>default</key>
-				<false/>
-				<key>required</key>
-				<false/>
-				<key>text</key>
-				<string>Enable Bing Translation</string>
-			</dict>
-			<key>description</key>
-			<string></string>
-			<key>label</key>
-			<string>Bing</string>
-			<key>type</key>
-			<string>checkbox</string>
-			<key>variable</key>
-			<string>bing_check</string>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>default</key>
-				<false/>
-				<key>required</key>
-				<false/>
-				<key>text</key>
-				<string>Enable Baidu Translation</string>
-			</dict>
-			<key>description</key>
-			<string></string>
-			<key>label</key>
-			<string>Baidu</string>
-			<key>type</key>
-			<string>checkbox</string>
-			<key>variable</key>
-			<string>baidu_check</string>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>default</key>
-				<false/>
-				<key>required</key>
-				<false/>
-				<key>text</key>
-				<string>Enable Youdao Translation</string>
-			</dict>
-			<key>description</key>
-			<string></string>
-			<key>label</key>
-			<string>Youdao</string>
-			<key>type</key>
-			<string>checkbox</string>
-			<key>variable</key>
-			<string>youdao_check</string>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>default</key>
-				<string>ZH</string>
-				<key>pairs</key>
-				<array>
-					<array>
-						<string>Bulgarian</string>
-						<string>BG</string>
-					</array>
-					<array>
-						<string>Chinese (Simplified)</string>
-						<string>ZH</string>
-					</array>
-					<array>
-						<string>Czech</string>
-						<string>CS</string>
-					</array>
-					<array>
-						<string>Danish</string>
-						<string>DA</string>
-					</array>
-					<array>
-						<string>Dutch</string>
-						<string>NL</string>
-					</array>
-					<array>
-						<string>English (American)</string>
-						<string>EN-US</string>
-					</array>
-					<array>
-						<string>English (British)</string>
-						<string>EN-GB</string>
-					</array>
-					<array>
-						<string>Estonian</string>
-						<string>ET</string>
-					</array>
-					<array>
-						<string>Finnish</string>
-						<string>FI</string>
-					</array>
-					<array>
-						<string>French</string>
-						<string>FR</string>
-					</array>
-					<array>
-						<string>German</string>
-						<string>DE</string>
-					</array>
-					<array>
-						<string>Greek</string>
-						<string>EL</string>
-					</array>
-					<array>
-						<string>Hungarian</string>
-						<string>HU</string>
-					</array>
-					<array>
-						<string>Indonesian</string>
-						<string>ID</string>
-					</array>
-					<array>
-						<string>Italian</string>
-						<string>IT</string>
-					</array>
-					<array>
-						<string>Japanese</string>
-						<string>JA</string>
-					</array>
-					<array>
-						<string>Korean</string>
-						<string>KO</string>
-					</array>
-					<array>
-						<string>Latvian</string>
-						<string>LV</string>
-					</array>
-					<array>
-						<string>Lithuanian</string>
-						<string>LT</string>
-					</array>
-					<array>
-						<string>Norwegian (Bokmål)</string>
-						<string>NB</string>
-					</array>
-					<array>
-						<string>Polish</string>
-						<string>PL</string>
-					</array>
-					<array>
-						<string>Portuguese (all Portuguese varieties excluding Brazilian Portuguese)</string>
-						<string>PT-PT</string>
-					</array>
-					<array>
-						<string>Portuguese (Brazilian)</string>
-						<string>PT-BR</string>
-					</array>
-					<array>
-						<string>Romanian</string>
-						<string>RO</string>
-					</array>
-					<array>
-						<string>Russian</string>
-						<string>RU</string>
-					</array>
-					<array>
-						<string>Slovak</string>
-						<string>SK</string>
-					</array>
-					<array>
-						<string>Slovenian</string>
-						<string>SL</string>
-					</array>
-					<array>
-						<string>Spanish</string>
-						<string>ES</string>
-					</array>
-					<array>
-						<string>Swedish</string>
-						<string>SV</string>
-					</array>
-					<array>
-						<string>Turkish</string>
-						<string>TR</string>
-					</array>
-					<array>
-						<string>Ukrainian</string>
-						<string>UK</string>
-					</array>
-				</array>
-			</dict>
-			<key>description</key>
-			<string></string>
-			<key>label</key>
-			<string>DeepL Target Language</string>
-			<key>type</key>
-			<string>popupbutton</string>
-			<key>variable</key>
-			<string>deepl_target_language</string>
+			<string>OPENAI_API_KEY</string>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1236,10 +1978,6 @@ Translate text with multiple services. This workflow also support [Universal Act
 				<string>zh-cn</string>
 				<key>pairs</key>
 				<array>
-					<array>
-						<string>Afrikaans</string>
-						<string>af</string>
-					</array>
 					<array>
 						<string>Afrikaans</string>
 						<string>af</string>
@@ -1683,6 +2421,148 @@ Translate text with multiple services. This workflow also support [Universal Act
 			<key>config</key>
 			<dict>
 				<key>default</key>
+				<string>ZH</string>
+				<key>pairs</key>
+				<array>
+					<array>
+						<string>Bulgarian</string>
+						<string>BG</string>
+					</array>
+					<array>
+						<string>Chinese (Simplified)</string>
+						<string>ZH</string>
+					</array>
+					<array>
+						<string>Czech</string>
+						<string>CS</string>
+					</array>
+					<array>
+						<string>Danish</string>
+						<string>DA</string>
+					</array>
+					<array>
+						<string>Dutch</string>
+						<string>NL</string>
+					</array>
+					<array>
+						<string>English (American)</string>
+						<string>EN-US</string>
+					</array>
+					<array>
+						<string>English (British)</string>
+						<string>EN-GB</string>
+					</array>
+					<array>
+						<string>Estonian</string>
+						<string>ET</string>
+					</array>
+					<array>
+						<string>Finnish</string>
+						<string>FI</string>
+					</array>
+					<array>
+						<string>French</string>
+						<string>FR</string>
+					</array>
+					<array>
+						<string>German</string>
+						<string>DE</string>
+					</array>
+					<array>
+						<string>Greek</string>
+						<string>EL</string>
+					</array>
+					<array>
+						<string>Hungarian</string>
+						<string>HU</string>
+					</array>
+					<array>
+						<string>Indonesian</string>
+						<string>ID</string>
+					</array>
+					<array>
+						<string>Italian</string>
+						<string>IT</string>
+					</array>
+					<array>
+						<string>Japanese</string>
+						<string>JA</string>
+					</array>
+					<array>
+						<string>Korean</string>
+						<string>KO</string>
+					</array>
+					<array>
+						<string>Latvian</string>
+						<string>LV</string>
+					</array>
+					<array>
+						<string>Lithuanian</string>
+						<string>LT</string>
+					</array>
+					<array>
+						<string>Norwegian (Bokmål)</string>
+						<string>NB</string>
+					</array>
+					<array>
+						<string>Polish</string>
+						<string>PL</string>
+					</array>
+					<array>
+						<string>Portuguese (all Portuguese varieties excluding Brazilian Portuguese)</string>
+						<string>PT-PT</string>
+					</array>
+					<array>
+						<string>Portuguese (Brazilian)</string>
+						<string>PT-BR</string>
+					</array>
+					<array>
+						<string>Romanian</string>
+						<string>RO</string>
+					</array>
+					<array>
+						<string>Russian</string>
+						<string>RU</string>
+					</array>
+					<array>
+						<string>Slovak</string>
+						<string>SK</string>
+					</array>
+					<array>
+						<string>Slovenian</string>
+						<string>SL</string>
+					</array>
+					<array>
+						<string>Spanish</string>
+						<string>ES</string>
+					</array>
+					<array>
+						<string>Swedish</string>
+						<string>SV</string>
+					</array>
+					<array>
+						<string>Turkish</string>
+						<string>TR</string>
+					</array>
+					<array>
+						<string>Ukrainian</string>
+						<string>UK</string>
+					</array>
+				</array>
+			</dict>
+			<key>description</key>
+			<string></string>
+			<key>label</key>
+			<string>DeepL Target Language</string>
+			<key>type</key>
+			<string>popupbutton</string>
+			<key>variable</key>
+			<string>deepl_target_language</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
 				<string>zh</string>
 				<key>placeholder</key>
 				<string></string>
@@ -1700,9 +2580,628 @@ Translate text with multiple services. This workflow also support [Universal Act
 			<key>variable</key>
 			<string>target_language</string>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string></string>
+				<key>placeholder</key>
+				<string></string>
+				<key>required</key>
+				<false/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string>Base languages configs are for a second translation target, useful for bidirectional translation, e.g. en&lt;-&gt;zh</string>
+			<key>label</key>
+			<string>Base language code</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>base_language</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string></string>
+				<key>pairs</key>
+				<array>
+					<array>
+						<string>-</string>
+						<string></string>
+					</array>
+					<array>
+						<string>Bulgarian</string>
+						<string>BG</string>
+					</array>
+					<array>
+						<string>Chinese (Simplified)</string>
+						<string>ZH</string>
+					</array>
+					<array>
+						<string>Czech</string>
+						<string>CS</string>
+					</array>
+					<array>
+						<string>Danish</string>
+						<string>DA</string>
+					</array>
+					<array>
+						<string>Dutch</string>
+						<string>NL</string>
+					</array>
+					<array>
+						<string>English (American)</string>
+						<string>EN-US</string>
+					</array>
+					<array>
+						<string>English (British)</string>
+						<string>EN-GB</string>
+					</array>
+					<array>
+						<string>Estonian</string>
+						<string>ET</string>
+					</array>
+					<array>
+						<string>Finnish</string>
+						<string>FI</string>
+					</array>
+					<array>
+						<string>French</string>
+						<string>FR</string>
+					</array>
+					<array>
+						<string>German</string>
+						<string>DE</string>
+					</array>
+					<array>
+						<string>Greek</string>
+						<string>EL</string>
+					</array>
+					<array>
+						<string>Hungarian</string>
+						<string>HU</string>
+					</array>
+					<array>
+						<string>Indonesian</string>
+						<string>ID</string>
+					</array>
+					<array>
+						<string>Italian</string>
+						<string>IT</string>
+					</array>
+					<array>
+						<string>Japanese</string>
+						<string>JA</string>
+					</array>
+					<array>
+						<string>Korean</string>
+						<string>KO</string>
+					</array>
+					<array>
+						<string>Latvian</string>
+						<string>LV</string>
+					</array>
+					<array>
+						<string>Lithuanian</string>
+						<string>LT</string>
+					</array>
+					<array>
+						<string>Norwegian (Bokmål)</string>
+						<string>NB</string>
+					</array>
+					<array>
+						<string>Polish</string>
+						<string>PL</string>
+					</array>
+					<array>
+						<string>Portuguese (all Portuguese varieties excluding Brazilian Portuguese)</string>
+						<string>PT-PT</string>
+					</array>
+					<array>
+						<string>Portuguese (Brazilian)</string>
+						<string>PT-BR</string>
+					</array>
+					<array>
+						<string>Romanian</string>
+						<string>RO</string>
+					</array>
+					<array>
+						<string>Russian</string>
+						<string>RU</string>
+					</array>
+					<array>
+						<string>Slovak</string>
+						<string>SK</string>
+					</array>
+					<array>
+						<string>Slovenian</string>
+						<string>SL</string>
+					</array>
+					<array>
+						<string>Spanish</string>
+						<string>ES</string>
+					</array>
+					<array>
+						<string>Swedish</string>
+						<string>SV</string>
+					</array>
+					<array>
+						<string>Turkish</string>
+						<string>TR</string>
+					</array>
+					<array>
+						<string>Ukrainian</string>
+						<string>UK</string>
+					</array>
+				</array>
+			</dict>
+			<key>description</key>
+			<string></string>
+			<key>label</key>
+			<string>DeepL Base Language</string>
+			<key>type</key>
+			<string>popupbutton</string>
+			<key>variable</key>
+			<string>deepl_base_language</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string></string>
+				<key>pairs</key>
+				<array>
+					<array>
+						<string>-</string>
+						<string></string>
+					</array>
+					<array>
+						<string>Afrikaans</string>
+						<string>af</string>
+					</array>
+					<array>
+						<string>Albanian</string>
+						<string>sq</string>
+					</array>
+					<array>
+						<string>Amharic</string>
+						<string>am</string>
+					</array>
+					<array>
+						<string>Arabic</string>
+						<string>ar</string>
+					</array>
+					<array>
+						<string>Armenian</string>
+						<string>hy</string>
+					</array>
+					<array>
+						<string>Azerbaijani</string>
+						<string>az</string>
+					</array>
+					<array>
+						<string>Basque</string>
+						<string>eu</string>
+					</array>
+					<array>
+						<string>Belarusian</string>
+						<string>be</string>
+					</array>
+					<array>
+						<string>Bengali</string>
+						<string>bn</string>
+					</array>
+					<array>
+						<string>Bosnian</string>
+						<string>bs</string>
+					</array>
+					<array>
+						<string>Bulgarian</string>
+						<string>bg</string>
+					</array>
+					<array>
+						<string>Catalan</string>
+						<string>ca</string>
+					</array>
+					<array>
+						<string>Cebuano</string>
+						<string>ceb</string>
+					</array>
+					<array>
+						<string>Chichewa</string>
+						<string>ny</string>
+					</array>
+					<array>
+						<string>Chinese (Simplified)</string>
+						<string>zh-cn</string>
+					</array>
+					<array>
+						<string>Chinese (Traditional)</string>
+						<string>zh-tw</string>
+					</array>
+					<array>
+						<string>Corsican</string>
+						<string>co</string>
+					</array>
+					<array>
+						<string>Croatian</string>
+						<string>hr</string>
+					</array>
+					<array>
+						<string>Czech</string>
+						<string>cs</string>
+					</array>
+					<array>
+						<string>Danish</string>
+						<string>da</string>
+					</array>
+					<array>
+						<string>Dutch</string>
+						<string>nl</string>
+					</array>
+					<array>
+						<string>English</string>
+						<string>en</string>
+					</array>
+					<array>
+						<string>Esperanto</string>
+						<string>eo</string>
+					</array>
+					<array>
+						<string>Estonian</string>
+						<string>et</string>
+					</array>
+					<array>
+						<string>Filipino</string>
+						<string>tl</string>
+					</array>
+					<array>
+						<string>Finnish</string>
+						<string>fi</string>
+					</array>
+					<array>
+						<string>French</string>
+						<string>fr</string>
+					</array>
+					<array>
+						<string>Frisian</string>
+						<string>fy</string>
+					</array>
+					<array>
+						<string>Galician</string>
+						<string>gl</string>
+					</array>
+					<array>
+						<string>Georgian</string>
+						<string>ka</string>
+					</array>
+					<array>
+						<string>German</string>
+						<string>de</string>
+					</array>
+					<array>
+						<string>Greek</string>
+						<string>el</string>
+					</array>
+					<array>
+						<string>Gujarati</string>
+						<string>gu</string>
+					</array>
+					<array>
+						<string>Haitian Creole</string>
+						<string>ht</string>
+					</array>
+					<array>
+						<string>Hausa</string>
+						<string>ha</string>
+					</array>
+					<array>
+						<string>Hawaiian</string>
+						<string>haw</string>
+					</array>
+					<array>
+						<string>Hebrew</string>
+						<string>iw</string>
+					</array>
+					<array>
+						<string>Hebrew</string>
+						<string>he</string>
+					</array>
+					<array>
+						<string>Hindi</string>
+						<string>hi</string>
+					</array>
+					<array>
+						<string>Hmong</string>
+						<string>hmn</string>
+					</array>
+					<array>
+						<string>Hungarian</string>
+						<string>hu</string>
+					</array>
+					<array>
+						<string>Icelandic</string>
+						<string>is</string>
+					</array>
+					<array>
+						<string>Igbo</string>
+						<string>ig</string>
+					</array>
+					<array>
+						<string>Indonesian</string>
+						<string>id</string>
+					</array>
+					<array>
+						<string>Irish</string>
+						<string>ga</string>
+					</array>
+					<array>
+						<string>Italian</string>
+						<string>it</string>
+					</array>
+					<array>
+						<string>Japanese</string>
+						<string>ja</string>
+					</array>
+					<array>
+						<string>Javanese</string>
+						<string>jw</string>
+					</array>
+					<array>
+						<string>Kannada</string>
+						<string>kn</string>
+					</array>
+					<array>
+						<string>Kazakh</string>
+						<string>kk</string>
+					</array>
+					<array>
+						<string>Khmer</string>
+						<string>km</string>
+					</array>
+					<array>
+						<string>Korean</string>
+						<string>ko</string>
+					</array>
+					<array>
+						<string>Kurdish (Kurmanji)</string>
+						<string>ku</string>
+					</array>
+					<array>
+						<string>Kyrgyz</string>
+						<string>ky</string>
+					</array>
+					<array>
+						<string>Lao</string>
+						<string>lo</string>
+					</array>
+					<array>
+						<string>Latin</string>
+						<string>la</string>
+					</array>
+					<array>
+						<string>Latvian</string>
+						<string>lv</string>
+					</array>
+					<array>
+						<string>Lithuanian</string>
+						<string>lt</string>
+					</array>
+					<array>
+						<string>Luxembourgish</string>
+						<string>lb</string>
+					</array>
+					<array>
+						<string>Macedonian</string>
+						<string>mk</string>
+					</array>
+					<array>
+						<string>Malagasy</string>
+						<string>mg</string>
+					</array>
+					<array>
+						<string>Malay</string>
+						<string>ms</string>
+					</array>
+					<array>
+						<string>Malayalam</string>
+						<string>ml</string>
+					</array>
+					<array>
+						<string>Maltese</string>
+						<string>mt</string>
+					</array>
+					<array>
+						<string>Maori</string>
+						<string>mi</string>
+					</array>
+					<array>
+						<string>Marathi</string>
+						<string>mr</string>
+					</array>
+					<array>
+						<string>Mongolian</string>
+						<string>mn</string>
+					</array>
+					<array>
+						<string>Myanmar (Burmese)</string>
+						<string>my</string>
+					</array>
+					<array>
+						<string>Nepali</string>
+						<string>ne</string>
+					</array>
+					<array>
+						<string>Norwegian</string>
+						<string>no</string>
+					</array>
+					<array>
+						<string>Odia</string>
+						<string>or</string>
+					</array>
+					<array>
+						<string>Pashto</string>
+						<string>ps</string>
+					</array>
+					<array>
+						<string>Persian</string>
+						<string>fa</string>
+					</array>
+					<array>
+						<string>Polish</string>
+						<string>pl</string>
+					</array>
+					<array>
+						<string>Portuguese</string>
+						<string>pt</string>
+					</array>
+					<array>
+						<string>Punjabi</string>
+						<string>pa</string>
+					</array>
+					<array>
+						<string>Romanian</string>
+						<string>ro</string>
+					</array>
+					<array>
+						<string>Russian</string>
+						<string>ru</string>
+					</array>
+					<array>
+						<string>Samoan</string>
+						<string>sm</string>
+					</array>
+					<array>
+						<string>Scots Gaelic</string>
+						<string>gd</string>
+					</array>
+					<array>
+						<string>Serbian</string>
+						<string>sr</string>
+					</array>
+					<array>
+						<string>Sesotho</string>
+						<string>st</string>
+					</array>
+					<array>
+						<string>Shona</string>
+						<string>sn</string>
+					</array>
+					<array>
+						<string>Sindhi</string>
+						<string>sd</string>
+					</array>
+					<array>
+						<string>Sinhala</string>
+						<string>si</string>
+					</array>
+					<array>
+						<string>Slovak</string>
+						<string>sk</string>
+					</array>
+					<array>
+						<string>Slovenian</string>
+						<string>sl</string>
+					</array>
+					<array>
+						<string>Somali</string>
+						<string>so</string>
+					</array>
+					<array>
+						<string>Spanish</string>
+						<string>es</string>
+					</array>
+					<array>
+						<string>Sundanese</string>
+						<string>su</string>
+					</array>
+					<array>
+						<string>Swahili</string>
+						<string>sw</string>
+					</array>
+					<array>
+						<string>Swedish</string>
+						<string>sv</string>
+					</array>
+					<array>
+						<string>Tajik</string>
+						<string>tg</string>
+					</array>
+					<array>
+						<string>Tamil</string>
+						<string>ta</string>
+					</array>
+					<array>
+						<string>Telugu</string>
+						<string>te</string>
+					</array>
+					<array>
+						<string>Thai</string>
+						<string>th</string>
+					</array>
+					<array>
+						<string>Turkish</string>
+						<string>tr</string>
+					</array>
+					<array>
+						<string>Ukrainian</string>
+						<string>uk</string>
+					</array>
+					<array>
+						<string>Urdu</string>
+						<string>ur</string>
+					</array>
+					<array>
+						<string>Uyghur</string>
+						<string>ug</string>
+					</array>
+					<array>
+						<string>Uzbek</string>
+						<string>uz</string>
+					</array>
+					<array>
+						<string>Vietnamese</string>
+						<string>vi</string>
+					</array>
+					<array>
+						<string>Welsh</string>
+						<string>cy</string>
+					</array>
+					<array>
+						<string>Xhosa</string>
+						<string>xh</string>
+					</array>
+					<array>
+						<string>Yiddish</string>
+						<string>yi</string>
+					</array>
+					<array>
+						<string>Yoruba</string>
+						<string>yo</string>
+					</array>
+					<array>
+						<string>Zulu</string>
+						<string>zu</string>
+					</array>
+				</array>
+			</dict>
+			<key>description</key>
+			<string></string>
+			<key>label</key>
+			<string>Google Base Language</string>
+			<key>type</key>
+			<string>popupbutton</string>
+			<key>variable</key>
+			<string>google_base_language</string>
+		</dict>
 	</array>
+	<key>variablesdontexport</key>
+	<array/>
 	<key>version</key>
-	<string>1.3</string>
+	<string>1.4</string>
 	<key>webaddress</key>
 	<string>https://github.com/yinan-c/alfred-translate-it</string>
 </dict>
