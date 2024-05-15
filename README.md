@@ -35,6 +35,7 @@ python setup.py install
 ![](https://i.imgur.com/ANXHurD.png)
 ![](https://i.imgur.com/yQu85NR.png)
 ![](https://i.imgur.com/tpAXeBo.png)
+![](https://github.com/yinan-c/alfred-translate-it/assets/95043151/a01a8dff-0738-403e-aec2-e984e234e0da)
 
 ## Thanks
 - Open-source project [UlionTse/translators](https://github.com/UlionTse/translators), a library which aims to bring free, multiple, enjoyable translation to individuals and students in Python.
@@ -43,5 +44,6 @@ python setup.py install
 
 **Any suggestions are welcome!**
 
-# Please consider buying me a coffee if you find this workflow helpful
+**Please consider buying me a coffee if you find this workflow helpful**
+
 <a href="https://www.buymeacoffee.com/yinan" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
