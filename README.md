@@ -6,10 +6,12 @@ An Alfred 5 workflow to translate text using OpenAI, DeepL, Google, Bing, Baidu 
 ## Requirements
 - [Alfred PowerPack](https://www.alfredapp.com/powerpack/)
 - Python3 (system shipped Python3 not recommended, use other sources like, [Homebrew](https://brew.sh/) or [pyenv](https://github.com/pyenv/pyenv) installed Python3)
-- Google translation is free and unlimited and requires no dependency, but may fail in mainland China. 
-- OpenAI Translation requires [OpenAI API](https://platform.openai.com/)
-- DeepL Translation requires [DeepL API](https://www.deepl.com/pro-api)
-- Other translation services require [translators](https://github.com/UlionTse/translators) library, install via:
+- Google translation is free and unlimited and requires no dependency, but may fail in mainland China.
+
+## Optional
+  - OpenAI Translation requires [OpenAI API](https://platform.openai.com/)
+  - DeepL Translation requires [DeepL API](https://www.deepl.com/pro-api)
+  - Other translation services (optional) require [translators](https://github.com/UlionTse/translators) library, if you ever need them, install via:
 ```
 # PYPI
 pip install --upgrade translators
