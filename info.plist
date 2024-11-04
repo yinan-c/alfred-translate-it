@@ -464,6 +464,7 @@ python3 translate.py "openai" "$1"</string>
 				<string>Wait for Google ...</string>
 				<key>script</key>
 				<string>export PYTHONPATH='./libs/'
+export PATH="$HOME/.pyenv/shims:$HOME/.pyenv/bin:$PATH"
 
 python3 translate.py "google" "$1"</string>
 				<key>scriptargtype</key>
@@ -1081,6 +1082,7 @@ python3 translate.py "bing_base" "$1"</string>
 				<string>Wait for Google ...</string>
 				<key>script</key>
 				<string>export PYTHONPATH='./libs/'
+export PATH="$HOME/.pyenv/shims:$HOME/.pyenv/bin:$PATH"
 
 python3 translate.py "google_base" "$1"</string>
 				<key>scriptargtype</key>
@@ -2584,7 +2586,7 @@ Translate text with multiple services. This workflow also support [Universal Act
 			<key>config</key>
 			<dict>
 				<key>default</key>
-				<string></string>
+				<string>en</string>
 				<key>placeholder</key>
 				<string></string>
 				<key>required</key>
@@ -2605,7 +2607,7 @@ Translate text with multiple services. This workflow also support [Universal Act
 			<key>config</key>
 			<dict>
 				<key>default</key>
-				<string></string>
+				<string>EN-US</string>
 				<key>pairs</key>
 				<array>
 					<array>
@@ -2751,7 +2753,7 @@ Translate text with multiple services. This workflow also support [Universal Act
 			<key>config</key>
 			<dict>
 				<key>default</key>
-				<string></string>
+				<string>en</string>
 				<key>pairs</key>
 				<array>
 					<array>
@@ -3201,7 +3203,7 @@ Translate text with multiple services. This workflow also support [Universal Act
 	<key>variablesdontexport</key>
 	<array/>
 	<key>version</key>
-	<string>1.4</string>
+	<string>1.4.1</string>
 	<key>webaddress</key>
 	<string>https://github.com/yinan-c/alfred-translate-it</string>
 </dict>
