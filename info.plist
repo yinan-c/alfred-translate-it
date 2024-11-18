@@ -322,9 +322,8 @@
 				<string>Wait for Bing ...</string>
 				<key>script</key>
 				<string>export PYTHONPATH='./libs/'
-export PATH="$HOME/.pyenv/shims:$HOME/.pyenv/bin:$PATH"
 
-python3 translate.py "bing" "$1"</string>
+/usr/bin/python3 translate.py "bing" "$1"</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -412,9 +411,8 @@ python3 translate.py "bing" "$1"</string>
 				<string>Wait for AI ...</string>
 				<key>script</key>
 				<string>export PYTHONPATH='./libs/'
-export PATH="$HOME/.pyenv/shims:$HOME/.pyenv/bin:$PATH"
 
-python3 translate.py "openai" "$1"</string>
+/usr/bin/python3 translate.py "openai" "$1"</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -464,9 +462,8 @@ python3 translate.py "openai" "$1"</string>
 				<string>Wait for Google ...</string>
 				<key>script</key>
 				<string>export PYTHONPATH='./libs/'
-export PATH="$HOME/.pyenv/shims:$HOME/.pyenv/bin:$PATH"
 
-python3 translate.py "google" "$1"</string>
+/usr/bin/python3 translate.py "google" "$1"</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -641,9 +638,8 @@ python3 translate.py "google" "$1"</string>
 				<string>Wait for Youdao ...</string>
 				<key>script</key>
 				<string>export PYTHONPATH='./libs/'
-export PATH="$HOME/.pyenv/shims:$HOME/.pyenv/bin:$PATH"
 
-python3 translate.py "youdao" "$1"</string>
+/usr/bin/python3 translate.py "youdao" "$1"</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -713,7 +709,7 @@ python3 translate.py "youdao" "$1"</string>
 				<key>script</key>
 				<string>export PYTHONPATH='./libs/'
 
-python3 translate.py "deepl" "$1"</string>
+/usr/bin/python3 translate.py "deepl" "$1"</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -782,9 +778,8 @@ python3 translate.py "deepl" "$1"</string>
 				<string>Wait for Baidu ...</string>
 				<key>script</key>
 				<string>export PYTHONPATH='./libs/'
-export PATH="$HOME/.pyenv/shims:$HOME/.pyenv/bin:$PATH"
 
-python3 translate.py "baidu" "$1"</string>
+/usr/bin/python3 translate.py "baidu" "$1"</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -940,9 +935,8 @@ python3 translate.py "baidu" "$1"</string>
 				<string>Wait for AI ...</string>
 				<key>script</key>
 				<string>export PYTHONPATH='./libs/'
-export PATH="$HOME/.pyenv/shims:$HOME/.pyenv/bin:$PATH"
 
-python3 translate.py "openai_base" "$1"</string>
+/usr/bin/python3 translate.py "openai_base" "$1"</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -992,9 +986,8 @@ python3 translate.py "openai_base" "$1"</string>
 				<string>Wait for Bing ...</string>
 				<key>script</key>
 				<string>export PYTHONPATH='./libs/'
-export PATH="$HOME/.pyenv/shims:$HOME/.pyenv/bin:$PATH"
 
-python3 translate.py "bing_base" "$1"</string>
+/usr/bin/python3 translate.py "bing_base" "$1"</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -1082,9 +1075,8 @@ python3 translate.py "bing_base" "$1"</string>
 				<string>Wait for Google ...</string>
 				<key>script</key>
 				<string>export PYTHONPATH='./libs/'
-export PATH="$HOME/.pyenv/shims:$HOME/.pyenv/bin:$PATH"
 
-python3 translate.py "google_base" "$1"</string>
+/usr/bin/python3 translate.py "google_base" "$1"</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -1221,9 +1213,8 @@ python3 translate.py "google_base" "$1"</string>
 				<string>Wait for Youdao ...</string>
 				<key>script</key>
 				<string>export PYTHONPATH='./libs/'
-export PATH="$HOME/.pyenv/shims:$HOME/.pyenv/bin:$PATH"
 
-python3 translate.py "youdao_base" "$1"</string>
+/usr/bin/python3 translate.py "youdao_base" "$1"</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -1311,9 +1302,8 @@ python3 translate.py "youdao_base" "$1"</string>
 				<string>Wait for Baidu ...</string>
 				<key>script</key>
 				<string>export PYTHONPATH='./libs/'
-export PATH="$HOME/.pyenv/shims:$HOME/.pyenv/bin:$PATH"
 
-python3 translate.py "baidu_base" "$1"</string>
+/usr/bin/python3 translate.py "baidu_base" "$1"</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -1383,7 +1373,7 @@ python3 translate.py "baidu_base" "$1"</string>
 				<key>script</key>
 				<string>export PYTHONPATH='./libs/'
 
-python3 translate.py "deepl_base" "$1"</string>
+/usr/bin/python3 translate.py "deepl_base" "$1"</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
